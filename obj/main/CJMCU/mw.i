@@ -1,5 +1,5 @@
 # 1 "./src/main/mw.c"
-# 1 "C:\\Users\\chalpathi\\Desktop\\cleanflight1_wrking_V3_Copy_structured_test_multiflips_on_hi_condition1700//"
+# 1 "C:\\Users\\chalpathi\\Desktop\\cleanflight1_wrking_V3_Copy_structured_test_multiflips_on_hi_condition1700_pitchcondtions//"
 # 1 "<built-in>"
 #define __STDC__ 1
 #define __STDC_VERSION__ 199901L
@@ -15697,7 +15697,10 @@ enum {
 #define PITCHING 2
 #define SLOWDOWNANDEXIT 3
 #define HOLD 4
-#define FLIPAGAIN 5
+#define PITCHINGPOS 5
+#define SLOWDOWNANDEXITPOS 6
+#define HOLDPOS 7
+
 
 extern rollAndPitchInclination_t inclination ;
 uint32_t currentTime = 0;
@@ -15731,7 +15734,7 @@ void applyAndSaveAccelerometerTrimsDelta(rollAndPitchTrims_t *rollAndPitchTrimsD
 
     saveConfigAndNotify();
 }
-# 160 "./src/main/mw.c"
+# 163 "./src/main/mw.c"
 _Bool isCalibrating()
 {
 
@@ -15775,7 +15778,9 @@ void flip(uint32_t reset)
 {
   static uint32_t state=1;
   static uint32_t timeon=0;
+  static uint32_t ton=0;
   uint32_t timeoff;
+  uint32_t toff;
 
   if (reset==0)
   {
@@ -15792,8 +15797,10 @@ void flip(uint32_t reset)
 
 
 
-            if (rcData[THROTTLE]>=1900 && vario >=150)
+            if (rcData[THROTTLE]>=1900 && vario >=100)
             {
+              if (inclination.values.pitchDeciDegrees <=50 && inclination.values.rollDeciDegrees >= -250 && inclination.values.rollDeciDegrees <= 250)
+              {
                 disableFlightMode(ANGLE_MODE);
                 led1_op(1);
                 led0_op(0);
@@ -15807,9 +15814,14 @@ void flip(uint32_t reset)
                 rcData[THROTTLE]=1100;
                 rcData[PITCH]=1000;
                 state = 2;
+              }
+              else
+              {
+                state = 5;
+              }
             }
             }
-# 245 "./src/main/mw.c"
+# 257 "./src/main/mw.c"
         break;
 
         case 2 :
@@ -15895,13 +15907,89 @@ void flip(uint32_t reset)
                 state = 1;
             }
         break;
-# 344 "./src/main/mw.c"
+
+        case 5 :
+# 353 "./src/main/mw.c"
+            disableFlightMode(ANGLE_MODE);
+            rcData[THROTTLE]=1100;
+            rcData[PITCH]=2000;
+
+            if (inclination.values.pitchDeciDegrees >= -900 && inclination.values.pitchDeciDegrees < -50 && inclination.values.rollDeciDegrees >= -250 && inclination.values.rollDeciDegrees <= 250)
+            {
+                state = 6;
+            }
+            else
+            {
+                state = 5;
+            }
+        break;
+
+        case 6 :
+
+            if (inclination.values.pitchDeciDegrees > -900 && inclination.values.pitchDeciDegrees < -450 && inclination.values.rollDeciDegrees >= -250 && inclination.values.rollDeciDegrees <= 250)
+            {
+
+                (rcModeActivationMask ^= (1 << BOXBARO));
+
+
+                disableFlightMode(ANGLE_MODE);
+                rcData[THROTTLE]=1100;
+                rcData[PITCH] = 1320;
+
+
+
+            }
+            else
+            {
+                if (inclination.values.pitchDeciDegrees >= -450 && inclination.values.pitchDeciDegrees <= -50 && inclination.values.rollDeciDegrees >= -250 && inclination.values.rollDeciDegrees <= 250)
+                {
+                    led1_op(0);
+                    led0_op(1);
+                    led2_op(1);
+
+
+
+
+                    (rcModeActivationMask |= (1 << BOXBARO));
+                    enableFlightMode(ANGLE_MODE);
+                    rcData[THROTTLE]=1500;
+                    rcData[PITCH]=1500;
+                    ton = millis();
+                    state=7;
+                }
+            }
+        break;
+
+        case 7 :
+            (rcModeActivationMask |= (1 << BOXBARO));
+            enableFlightMode(ANGLE_MODE);
+            led1_op(0);
+            led0_op(0);
+            led2_op(1);
+
+
+
+                rcData[THROTTLE]=1850;
+                rcData[PITCH]=1500;
+
+            toff = millis();
+            if ((toff-ton)<=1000)
+            {
+
+                state = 7;
+            }
+            else
+            {
+                state = 1;
+            }
+        break;
     }
   }
   else
   {
       state=1;
       timeon=0;
+      ton=0;
       led1_op(0);
       led0_op(0);
       led2_op(0);
@@ -16058,7 +16146,7 @@ void annexCode(void)
 
 
     handleSerial();
-# 514 "./src/main/mw.c"
+# 597 "./src/main/mw.c"
     if (gyro.temperature)
         gyro.temperature(&telemTemperature1);
 }
@@ -16067,7 +16155,7 @@ void mwDisarm(void)
 {
     if ((armingFlags & (ARMED))) {
         (armingFlags &= ~(ARMED));
-# 531 "./src/main/mw.c"
+# 614 "./src/main/mw.c"
         beeper(BEEPER_DISARMING);
     }
 }
@@ -16094,9 +16182,9 @@ void mwArm(void)
         if (!(armingFlags & (PREVENT_ARMING))) {
             (armingFlags |= (ARMED));
             headFreeModeHold = heading;
-# 570 "./src/main/mw.c"
+# 653 "./src/main/mw.c"
             disarmAt = millis() + masterConfig.auto_disarm_delay * 1000;
-# 579 "./src/main/mw.c"
+# 662 "./src/main/mw.c"
             beeper(BEEPER_ARMING);
 
 
@@ -16216,7 +16304,7 @@ void executePeriodicTasks(void)
             calculateEstimatedAltitude(currentTime);
         }
         break;
-# 713 "./src/main/mw.c"
+# 796 "./src/main/mw.c"
     }
 
     if (periodicTaskIndex >= (UPDATE_DISPLAY_TASK + 1)) {
@@ -16336,7 +16424,7 @@ void processRx(void)
     } else {
         disableFlightMode(HORIZON_MODE);
     }
-# 840 "./src/main/mw.c"
+# 923 "./src/main/mw.c"
     if (sensors(SENSOR_ACC) || sensors(SENSOR_MAG)) {
         if (((1 << (BOXMAG)) & rcModeActivationMask)) {
             if (!(flightModeFlags & (MAG_MODE))) {
@@ -16357,7 +16445,7 @@ void processRx(void)
             headFreeModeHold = heading;
         }
     }
-# 868 "./src/main/mw.c"
+# 951 "./src/main/mw.c"
     if (((1 << (BOXPASSTHRU)) & rcModeActivationMask)) {
         enableFlightMode(PASSTHRU_MODE);
     } else {
@@ -16367,7 +16455,7 @@ void processRx(void)
     if (masterConfig.mixerMode == MIXER_FLYING_WING || masterConfig.mixerMode == MIXER_AIRPLANE) {
         disableFlightMode(HEADFREE_MODE);
     }
-# 892 "./src/main/mw.c"
+# 975 "./src/main/mw.c"
 }
 
 void filterRc(void){
@@ -16436,11 +16524,11 @@ void loop(void)
                 updateAltHoldState();
             }
         }
-# 971 "./src/main/mw.c"
+# 1054 "./src/main/mw.c"
     } else {
 
         executePeriodicTasks();
-# 983 "./src/main/mw.c"
+# 1066 "./src/main/mw.c"
     }
 
     currentTime = micros();
@@ -16495,7 +16583,7 @@ void loop(void)
 
 
             }
-# 1045 "./src/main/mw.c"
+# 1128 "./src/main/mw.c"
         if (isUsingSticksForArming() && rcData[THROTTLE] <= masterConfig.rxConfig.mincheck
 
 
@@ -16510,7 +16598,7 @@ void loop(void)
         if (currentProfile->throttle_correction_value && ((flightModeFlags & (ANGLE_MODE)) || (flightModeFlags & (HORIZON_MODE)))) {
             rcCommand[THROTTLE] += calculateThrottleAngleCorrection(currentProfile->throttle_correction_value);
         }
-# 1069 "./src/main/mw.c"
+# 1152 "./src/main/mw.c"
         pid_controller(
             &currentProfile->pidProfile,
             currentControlRateProfile,
@@ -16536,5 +16624,5 @@ void loop(void)
 
 
     }
-# 1110 "./src/main/mw.c"
+# 1193 "./src/main/mw.c"
 }
