@@ -273,7 +273,7 @@ void flip(uint32_t reset)
                 led2_op(true);
             }
             else
-            {//rate command of .8 rad/s
+            {
                 if (inclination.values.pitchDeciDegrees >= 100 && inclination.values.pitchDeciDegrees <= 450 && inclination.values.rollDeciDegrees >= -250 && inclination.values.rollDeciDegrees <= 250)
                 {//exiting after one flip
                     led1_op(false);
