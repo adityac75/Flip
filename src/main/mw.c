@@ -216,36 +216,32 @@ void flip(uint32_t reset)
             
             if (rcData[THROTTLE]>=1900 && vario >=150)//ascend till throttle is greater than 1900 and upward velocity greater than 150cm/sec.
             {
-                DISABLE_FLIGHT_MODE(ANGLE_MODE);  //deactivate angle mode to enter rate mode
+                DISABLE_FLIGHT_MODE(ANGLE_MODE);
                 led1_op(true);
                 led0_op(false);
                 led2_op(false);
-
                 
                 rcData[THROTTLE]=1100;
                 rcData[PITCH]=1000;        //give initial pitch to start flip
                 state = 2;
             }
             }
-            
         break;
 
-        case PITCHING ://State=2 continue flipping of the drone
+        case PITCHING ://State=2 continue backwards flipping of the drone
 
             led1_op(true);
             led0_op(true);
             led2_op(false);
 
-            
-            DEACTIVATE_RC_MODE(BOXBARO);
            
+            DEACTIVATE_RC_MODE(BOXBARO);
 
             DISABLE_FLIGHT_MODE(ANGLE_MODE);
             rcData[THROTTLE]=1100;
             rcData[PITCH]=1000;
 
-            //check if drone has entered the last quadrant while performing the flip (angle greater>270 degrees)
-
+             //check if drone has entered the last quadrant while performing the flip (angle greater>270 degrees)
             if (inclination.values.pitchDeciDegrees >= 50 && inclination.values.pitchDeciDegrees < 900 && inclination.values.rollDeciDegrees >= -250 && inclination.values.rollDeciDegrees <= 250)
             {
                 state = 3; //go to state 3 if condition is true
@@ -256,14 +252,14 @@ void flip(uint32_t reset)
             }
         break;
 
-        case SLOWDOWNANDEXIT : //state = 3 slowdown when the angle of the drone is >270 degrees
+        case SLOWDOWNANDEXIT : //state = 3 slowdown down when the angle of the drone is >270 degrees
             
             //slowdown rate of drone when angle between 270 degrees and 315 degrees
             if (inclination.values.pitchDeciDegrees > 450 && inclination.values.pitchDeciDegrees < 900 && inclination.values.rollDeciDegrees >= -250 && inclination.values.rollDeciDegrees <= 250)
             {//slow down pitch rate
-                
-                DEACTIVATE_RC_MODE(BOXBARO); 
-                
+               
+                DEACTIVATE_RC_MODE(BOXBARO);
+                //}
 
                 DISABLE_FLIGHT_MODE(ANGLE_MODE);
                 rcData[THROTTLE]=1100;
@@ -280,40 +276,38 @@ void flip(uint32_t reset)
                     led0_op(true);
                     led2_op(true);
 
-                    ACTIVATE_RC_MODE(BOXBARO);       //activate angle mode and baromode after one flip
+                    ACTIVATE_RC_MODE(BOXBARO);        //activate angle mode and baromode after one flip
                     ENABLE_FLIGHT_MODE(ANGLE_MODE);
-                    rcData[THROTTLE]=1500;           
-                    rcData[PITCH]=1500;              //give zero pitch
-                    timeon = millis(); //get system time 
+                    rcData[THROTTLE]=1500;            
+                    rcData[PITCH]=1500;               //give zero pitch
+                    timeon = millis();                //get system time
                     state=4;
                 }
             }
         break;
 
-        case HOLD :  //state=4 
-            ACTIVATE_RC_MODE(BOXBARO);
+        case HOLD :
+            ACTIVATE_RC_MODE(BOXBARO);     //state = 4 hold altitude for 1sec and give back control to user
             ENABLE_FLIGHT_MODE(ANGLE_MODE);
             led1_op(false);
             led0_op(false);
             led2_op(true);
-                rcData[THROTTLE]=1850;  //give a high throttle value for 1sec to help recover the drone and maintain the altitude of the drone
-                rcData[PITCH]=1500;     //ensure that the pitch is still zero
-           
-            timeoff = millis(); //get new current system time 
-            if ((timeoff-timeon)<=1000) //if difference between timeoff and timeon is less than 1sec then maintain throttle and pitch value
+                rcData[THROTTLE]=1850;      //give a high throttle value for 1sec to help recover the drone and maintain the altitude of the drone
+                rcData[PITCH]=1500;        //ensure that the pitch is still zero
+            timeoff = millis();            //get new current system time
+            if ((timeoff-timeon)<=1000)   //if difference between timeoff and timeon is less than 1sec then maintain throttle and pitch value
             {
             
                 state = 4;
             }
-            else  //if difference is greater then give back control to user and go to state 1. wait for command for new flip
+            else                         //if difference is greater then give back control to user and go to state 1. wait for command for new flip
             {
-                state = 1;
+                state = 1;      
             }
         break;
-
     }
   }
-  else //reseting the state when the AUX1 is off. This is done so that state is 1 again when next flip is to be executed and when AUX1 is on.
+  else //reseting the state when the AUX1 is off. This is done so that state is 1 again when next flip is to be executed and AUX1 is on.
   {
       state=1;
       timeon=0;
