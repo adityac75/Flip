@@ -98,7 +98,10 @@ enum {
 #define PITCHING 2
 #define SLOWDOWNANDEXIT 3
 #define HOLD 4
-#define FLIPAGAIN 5
+#define PITCHINGPOS 5
+#define SLOWDOWNANDEXITPOS 6
+#define HOLDPOS 7
+
 
 extern rollAndPitchInclination_t inclination ;//drona
 uint32_t currentTime = 0;
@@ -200,153 +203,197 @@ void flip(uint32_t reset)
 {
   static uint32_t state=1;
   static uint32_t timeon=0;
+  static uint32_t ton=0;
   uint32_t timeoff;
-  
+  uint32_t toff;
+
   if (reset==0)//when AUX1 is on
   {
     switch (state)
     {
         case ASCEND ://State=1
             ACTIVATE_RC_MODE(BOXBARO);
-            ENABLE_FLIGHT_MODE(ANGLE_MODE);
+            ENABLE_FLIGHT_MODE(ANGLE_MODE); 
 
             if (rcData[THROTTLE]>=1700)
             {
-            DEACTIVATE_RC_MODE(BOXBARO); //deactivate baromode to ensure greater vertical velocity than when the mode is on. 
-            
-            //rcData[THROTTLE]=1740;
-            //rcData[PITCH]=1500;
-            //if (vario>=25)//when drone has reached a speed of 20cm/sec in a upwards direction
-            if (rcData[THROTTLE]>=1900 && vario >=150)//ascend till throttle is greater than 1900
+            DEACTIVATE_RC_MODE(BOXBARO); //deactivate baromode to ensure pluto attains greater vertical velocity and momentum than when the mode is on. 
+           
+            if (rcData[THROTTLE]>=1900 && vario >=100)//ascend till throttle is greater than 1900 and upward velocity greater than 100cm/sec.
             {
+              if (inclination.values.pitchDeciDegrees <=50 && inclination.values.rollDeciDegrees >= -250 && inclination.values.rollDeciDegrees <= 250) //if pluto is pitching forward then go to state 5 for forward flip else do backwards flip 
+              {
                 DISABLE_FLIGHT_MODE(ANGLE_MODE);
                 led1_op(true);
                 led0_op(false);
                 led2_op(false);
                 
-                //if (FLIGHT_MODE(BARO_MODE)){
-                
-                //}
-
-                
                 rcData[THROTTLE]=1100;
                 rcData[PITCH]=1000;        //give initial pitch to start flip
                 state = 2;
+              }
+              else
+              {
+                state = 5;                //go to state 5 to intiate forward flip
+              }
             }
             }
-            /*else //Manually ascend if speed less than 20cm/sec
-            {
-                rcData[THROTTLE]=1740;
-                rcData[PITCH]=1500;
-                led1_op(true);
-                led0_op(true);
-                led2_op(false);
-            }*/
         break;
 
-        case PITCHING ://State=2 continue fliping of the drone
+        case PITCHING ://State=2 continue backwards flipping of the drone
 
             led1_op(true);
             led0_op(true);
             led2_op(false);
 
-            //if (FLIGHT_MODE(BARO_MODE)){
+            
             DEACTIVATE_RC_MODE(BOXBARO);
-            //}
+            
 
             DISABLE_FLIGHT_MODE(ANGLE_MODE);
             rcData[THROTTLE]=1100;
             rcData[PITCH]=1000;
 
+            //check if drone has entered the last quadrant while performing the flip (angle greater>270 degrees)
             if (inclination.values.pitchDeciDegrees >= 50 && inclination.values.pitchDeciDegrees < 900 && inclination.values.rollDeciDegrees >= -250 && inclination.values.rollDeciDegrees <= 250)
             {
-                state = 3;
+                state = 3; //go to state 3 if condition is true
             }
             else
             {
-                state = 2;
+                state = 2; //continue flipping if pluto not in last quadrant
             }
         break;
 
         case SLOWDOWNANDEXIT : //state = 3 slowdown down when the angle of the drone is >270 degrees
             
+            //slowdown rate of drone when angle between 270 degrees and 315 degrees
             if (inclination.values.pitchDeciDegrees > 450 && inclination.values.pitchDeciDegrees < 900 && inclination.values.rollDeciDegrees >= -250 && inclination.values.rollDeciDegrees <= 250)
             {//slow down pitch rate
-                //if (FLIGHT_MODE(BARO_MODE)){
+                
                 DEACTIVATE_RC_MODE(BOXBARO);
-                //}
+                
 
                 DISABLE_FLIGHT_MODE(ANGLE_MODE);
                 rcData[THROTTLE]=1100;
-                rcData[PITCH] = 1800; //giving negative pitch rate to slow down rate of pitch
+                rcData[PITCH] = 1680; //giving negative pitch rate to slow down rate of pitch
                 led1_op(true);
                 led0_op(false);
                 led2_op(true);
             }
             else
             {//rate command of .8 rad/s
-                if (inclination.values.pitchDeciDegrees >= 100 && inclination.values.pitchDeciDegrees <= 450 && inclination.values.rollDeciDegrees >= -250 && inclination.values.rollDeciDegrees <= 250)
+                if (inclination.values.pitchDeciDegrees >= 50 && inclination.values.pitchDeciDegrees <= 450 && inclination.values.rollDeciDegrees >= -250 && inclination.values.rollDeciDegrees <= 250)
                 {//exiting after one flip
                     led1_op(false);
                     led0_op(true);
                     led2_op(true);
 
-                    //DEACTIVATE_RC_MODE(BOXBARO);
-                    //DISABLE_FLIGHT_MODE(ANGLE_MODE);
-
-                    ACTIVATE_RC_MODE(BOXBARO);
+                    ACTIVATE_RC_MODE(BOXBARO);      //activate angle mode and baromode after one flip
                     ENABLE_FLIGHT_MODE(ANGLE_MODE);
                     rcData[THROTTLE]=1500;
-                    rcData[PITCH]=1500;
-                    timeon = millis();
+                    rcData[PITCH]=1500;             //give zero pitch
+                    timeon = millis();              //get system time
                     state=4;
                 }
             }
         break;
 
-        case HOLD :
+        case HOLD : //state = 4 hold altitude for 1sec and give back control to user
             ACTIVATE_RC_MODE(BOXBARO);
             ENABLE_FLIGHT_MODE(ANGLE_MODE);
             led1_op(false);
             led0_op(false);
             led2_op(true);
-        	//led1_op(true);
-            //for (i=1;i<=15000;i++)
-            //{
-                rcData[THROTTLE]=1850;
-                rcData[PITCH]=1500;
-            //}
-            timeoff = millis();
-            if ((timeoff-timeon)<=1000)
+            rcData[THROTTLE]=1850;     //give a high throttle value for 1sec to help recover the drone and maintain the altitude of the drone
+            rcData[PITCH]=1500;        //ensure that the pitch is still zero
+            
+            timeoff = millis();        //get new current system time
+            if ((timeoff-timeon)<=1000)   //if difference between timeoff and timeon is less than 1sec then maintain throttle and pitch value
             {
             
                 state = 4;
             }
-            else
+            else   //if difference is greater then give back control to user and go to state 1. wait for command for new flip
             {
                 state = 1;
             }
         break;
 
-        /*case FLIPAGAIN:
-            ACTIVATE_RC_MODE(BOXBARO);
-            ENABLE_FLIGHT_MODE(ANGLE_MODE);
-            if (rcData[THROTTLE]<=1400)//check lower throttle value (remove if necessary)
+        case PITCHINGPOS ://State=5 perform forward flipping/positive pitching of the drone
+
+            DISABLE_FLIGHT_MODE(ANGLE_MODE);
+            rcData[THROTTLE]=1100;
+            rcData[PITCH]=2000;
+
+			//check if drone has entered the first quadrant while performing the forward flip
+            if (inclination.values.pitchDeciDegrees >= -900 && inclination.values.pitchDeciDegrees < -50 && inclination.values.rollDeciDegrees >= -250 && inclination.values.rollDeciDegrees <= 250)
             {
-                state = 1;
-                timeon = 0;
+                state = 6;      //go to state 6 if true
             }
             else
             {
-                state = 5;
+                state = 5;     //keep pitching forward if not
             }
-        break;*/
+        break;
+
+        case SLOWDOWNANDEXITPOS : //state = 6 slowdown down when drone enters the first quadrant
+            
+            if (inclination.values.pitchDeciDegrees > -900 && inclination.values.pitchDeciDegrees < -450 && inclination.values.rollDeciDegrees >= -250 && inclination.values.rollDeciDegrees <= 250)
+            {//slow down pitch rate
+                
+                DEACTIVATE_RC_MODE(BOXBARO);
+                
+
+                DISABLE_FLIGHT_MODE(ANGLE_MODE);
+                rcData[THROTTLE]=1100;
+                rcData[PITCH] = 1320; //giving negative pitch rate to slow down rate of pitch
+                
+            }
+            else
+            {
+                if (inclination.values.pitchDeciDegrees >= -450 && inclination.values.pitchDeciDegrees <= -50 && inclination.values.rollDeciDegrees >= -250 && inclination.values.rollDeciDegrees <= 250)
+                {//exiting after one flip
+                    led1_op(false);
+                    led0_op(true);
+                    led2_op(true);
+
+                    ACTIVATE_RC_MODE(BOXBARO);        //activate angle mode and baromode after one flip
+                    ENABLE_FLIGHT_MODE(ANGLE_MODE);
+                    rcData[THROTTLE]=1500;
+                    rcData[PITCH]=1500;              //give zero pitch
+                    ton = millis();  //get system time
+                    state=7;
+                }
+            }
+        break;
+
+        case HOLDPOS : //state 7 hold thee altitude for 1sec after flip and then give back control to user
+            ACTIVATE_RC_MODE(BOXBARO);
+            ENABLE_FLIGHT_MODE(ANGLE_MODE);
+            led1_op(false);
+            led0_op(false);
+            led2_op(true);
+            rcData[THROTTLE]=1850;     //give a high throttle value for 1sec to help recover the drone and maintain the altitude of the drone
+            rcData[PITCH]=1500;        //ensure that the pitch is still zero
+            toff = millis();           //get new current system time 
+            if ((toff-ton)<=1000)      //if difference between timeoff and timeon is less than 1sec then maintain throttle and pitch value
+            {
+            
+                state = 7;
+            }
+            else                       //if difference is greater then give back control to user and go to state 1. wait for command for new flip
+            {
+                state = 1;
+            }
+        break;
     }
   }
   else //reseting the state when the AUX1 is off. This is done so that state is 1 again when next flip is to be executed and AUX1 is on.
   {
       state=1;
       timeon=0;
+      ton=0;
       led1_op(false);
       led0_op(false);
       led2_op(false);
