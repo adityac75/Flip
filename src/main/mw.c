@@ -255,22 +255,22 @@ void flip(uint32_t reset)
         case SLOWDOWNANDEXIT : //state = 3 slowdown down when the angle of the drone is >270 degrees
             
             //slowdown rate of drone when angle between 270 degrees and 315 degrees
-            if (inclination.values.pitchDeciDegrees > 450 && inclination.values.pitchDeciDegrees < 900 && inclination.values.rollDeciDegrees >= -250 && inclination.values.rollDeciDegrees <= 250)
-            {//slow down pitch rate
-               
+           if (inclination.values.pitchDeciDegrees > 450)
+           {
                 DEACTIVATE_RC_MODE(BOXBARO);
                 //}
 
                 DISABLE_FLIGHT_MODE(ANGLE_MODE);
                 rcData[THROTTLE]=1100;
-                rcData[PITCH] = 1800; //giving negative pitch rate to slow down rate of pitch
+                rcData[PITCH] = 1700;
                 led1_op(true);
                 led0_op(false);
                 led2_op(true);
-            }
+           }
+
             else
             {
-                if (inclination.values.pitchDeciDegrees >= 100 && inclination.values.pitchDeciDegrees <= 450 && inclination.values.rollDeciDegrees >= -250 && inclination.values.rollDeciDegrees <= 250)
+                if (inclination.values.pitchDeciDegrees >= 0 && inclination.values.pitchDeciDegrees <= 450 && inclination.values.rollDeciDegrees >= -250 && inclination.values.rollDeciDegrees <= 250)
                 {//exiting after one flip
                     led1_op(false);
                     led0_op(true);
