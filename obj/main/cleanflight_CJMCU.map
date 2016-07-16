@@ -1,21 +1,21 @@
 Archive member included because of file (symbol)
 
 c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(_ashrdi3.o)
-                              C:\cygwin64\tmp\cceEUuCd.ltrans5.ltrans.o (__aeabi_lasr)
+                              C:\cygwin64\tmp\cclsPPfA.ltrans5.ltrans.o (__aeabi_lasr)
 c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(_arm_addsubsf3.o)
-                              C:\cygwin64\tmp\cceEUuCd.ltrans0.ltrans.o (__aeabi_fsub)
+                              C:\cygwin64\tmp\cclsPPfA.ltrans0.ltrans.o (__aeabi_fsub)
 c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(_arm_muldivsf3.o)
-                              C:\cygwin64\tmp\cceEUuCd.ltrans0.ltrans.o (__aeabi_fmul)
+                              C:\cygwin64\tmp\cclsPPfA.ltrans0.ltrans.o (__aeabi_fmul)
 c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(_arm_cmpsf2.o)
-                              C:\cygwin64\tmp\cceEUuCd.ltrans0.ltrans.o (__aeabi_fcmpeq)
+                              C:\cygwin64\tmp\cclsPPfA.ltrans0.ltrans.o (__aeabi_fcmpeq)
 c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(_arm_fixsfsi.o)
-                              C:\cygwin64\tmp\cceEUuCd.ltrans0.ltrans.o (__aeabi_f2iz)
+                              C:\cygwin64\tmp\cclsPPfA.ltrans0.ltrans.o (__aeabi_f2iz)
 c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(_arm_fixunssfsi.o)
-                              C:\cygwin64\tmp\cceEUuCd.ltrans0.ltrans.o (__aeabi_f2uiz)
+                              C:\cygwin64\tmp\cclsPPfA.ltrans0.ltrans.o (__aeabi_f2uiz)
 c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(_aeabi_ldivmod.o)
-                              C:\cygwin64\tmp\cceEUuCd.ltrans2.ltrans.o (__aeabi_ldivmod)
+                              C:\cygwin64\tmp\cclsPPfA.ltrans2.ltrans.o (__aeabi_ldivmod)
 c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(_fixsfdi.o)
-                              C:\cygwin64\tmp\cceEUuCd.ltrans5.ltrans.o (__aeabi_f2lz)
+                              C:\cygwin64\tmp\cclsPPfA.ltrans5.ltrans.o (__aeabi_f2lz)
 c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(_fixunssfdi.o)
                               c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(_fixsfdi.o) (__aeabi_f2ulz)
 c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(bpabi.o)
@@ -33,23 +33,23 @@ c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc
 c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(_udivdi3.o)
                               c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(bpabi.o) (__udivdi3)
 c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libg_s.a(lib_a-memcpy-stub.o)
-                              C:\cygwin64\tmp\cceEUuCd.ltrans7.ltrans.o (memcpy)
+                              C:\cygwin64\tmp\cclsPPfA.ltrans7.ltrans.o (memcpy)
 c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libg_s.a(lib_a-memset.o)
-                              C:\cygwin64\tmp\cceEUuCd.ltrans1.ltrans.o (memset)
+                              C:\cygwin64\tmp\cclsPPfA.ltrans1.ltrans.o (memset)
 c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libg_s.a(lib_a-strchr.o)
-                              C:\cygwin64\tmp\cceEUuCd.ltrans7.ltrans.o (strchr)
+                              C:\cygwin64\tmp\cclsPPfA.ltrans7.ltrans.o (strchr)
 c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libg_s.a(lib_a-strlen.o)
-                              C:\cygwin64\tmp\cceEUuCd.ltrans2.ltrans.o (strlen)
+                              C:\cygwin64\tmp\cclsPPfA.ltrans2.ltrans.o (strlen)
 c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libm.a(lib_a-sf_lrint.o)
-                              C:\cygwin64\tmp\cceEUuCd.ltrans0.ltrans.o (lrintf)
+                              C:\cygwin64\tmp\cclsPPfA.ltrans0.ltrans.o (lrintf)
 c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libm.a(lib_a-wf_acos.o)
-                              C:\cygwin64\tmp\cceEUuCd.ltrans0.ltrans.o (acosf)
+                              C:\cygwin64\tmp\cclsPPfA.ltrans0.ltrans.o (acosf)
 c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libm.a(lib_a-wf_atan2.o)
-                              C:\cygwin64\tmp\cceEUuCd.ltrans0.ltrans.o (atan2f)
+                              C:\cygwin64\tmp\cclsPPfA.ltrans0.ltrans.o (atan2f)
 c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libm.a(lib_a-wf_pow.o)
-                              C:\cygwin64\tmp\cceEUuCd.ltrans0.ltrans.o (powf)
+                              C:\cygwin64\tmp\cclsPPfA.ltrans0.ltrans.o (powf)
 c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libm.a(lib_a-wf_sqrt.o)
-                              C:\cygwin64\tmp\cceEUuCd.ltrans0.ltrans.o (sqrtf)
+                              C:\cygwin64\tmp\cclsPPfA.ltrans0.ltrans.o (sqrtf)
 c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libm.a(lib_a-ef_acos.o)
                               c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libm.a(lib_a-wf_acos.o) (__ieee754_acosf)
 c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libm.a(lib_a-ef_atan2.o)
@@ -118,21 +118,21 @@ Discarded input sections
  .data          0x00000000        0x0 obj/main/CJMCU/startup_stm32f10x_md_gcc.o
  .bss           0x00000000        0x0 obj/main/CJMCU/startup_stm32f10x_md_gcc.o
  .text          0x00000000        0x0 obj/main/CJMCU/drivers/adc.o (symbol from plugin)
- .text          0x00000000        0x0 C:\cygwin64\tmp\cceEUuCd.ltrans0.ltrans.o
+ .text          0x00000000        0x0 C:\cygwin64\tmp\cclsPPfA.ltrans0.ltrans.o
  .rodata.serialPortIdentifiers
-                0x00000000        0x2 C:\cygwin64\tmp\cceEUuCd.ltrans1.ltrans.o
- .data          0x00000000        0x0 C:\cygwin64\tmp\cceEUuCd.ltrans2.ltrans.o
- .data          0x00000000        0x0 C:\cygwin64\tmp\cceEUuCd.ltrans3.ltrans.o
- .data          0x00000000        0x0 C:\cygwin64\tmp\cceEUuCd.ltrans4.ltrans.o
+                0x00000000        0x2 C:\cygwin64\tmp\cclsPPfA.ltrans1.ltrans.o
+ .data          0x00000000        0x0 C:\cygwin64\tmp\cclsPPfA.ltrans2.ltrans.o
+ .data          0x00000000        0x0 C:\cygwin64\tmp\cclsPPfA.ltrans3.ltrans.o
+ .data          0x00000000        0x0 C:\cygwin64\tmp\cclsPPfA.ltrans4.ltrans.o
  .text.unlikely
-                0x00000000       0x10 C:\cygwin64\tmp\cceEUuCd.ltrans4.ltrans.o
- .data          0x00000000        0x0 C:\cygwin64\tmp\cceEUuCd.ltrans5.ltrans.o
- .data          0x00000000        0x0 C:\cygwin64\tmp\cceEUuCd.ltrans6.ltrans.o
- .data          0x00000000        0x0 C:\cygwin64\tmp\cceEUuCd.ltrans7.ltrans.o
- .data          0x00000000        0x0 C:\cygwin64\tmp\cceEUuCd.ltrans8.ltrans.o
- .data          0x00000000        0x0 C:\cygwin64\tmp\cceEUuCd.ltrans10.ltrans.o
- .data          0x00000000        0x0 C:\cygwin64\tmp\cceEUuCd.ltrans11.ltrans.o
- .data          0x00000000        0x0 C:\cygwin64\tmp\cceEUuCd.ltrans12.ltrans.o
+                0x00000000       0x10 C:\cygwin64\tmp\cclsPPfA.ltrans4.ltrans.o
+ .data          0x00000000        0x0 C:\cygwin64\tmp\cclsPPfA.ltrans5.ltrans.o
+ .data          0x00000000        0x0 C:\cygwin64\tmp\cclsPPfA.ltrans6.ltrans.o
+ .data          0x00000000        0x0 C:\cygwin64\tmp\cclsPPfA.ltrans7.ltrans.o
+ .data          0x00000000        0x0 C:\cygwin64\tmp\cclsPPfA.ltrans8.ltrans.o
+ .data          0x00000000        0x0 C:\cygwin64\tmp\cclsPPfA.ltrans10.ltrans.o
+ .data          0x00000000        0x0 C:\cygwin64\tmp\cclsPPfA.ltrans11.ltrans.o
+ .data          0x00000000        0x0 C:\cygwin64\tmp\cclsPPfA.ltrans12.ltrans.o
  .data          0x00000000        0x0 c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(_ashrdi3.o)
  .bss           0x00000000        0x0 c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(_ashrdi3.o)
  .data          0x00000000        0x0 c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(_arm_addsubsf3.o)
@@ -349,19 +349,19 @@ Linker script and memory map
 
 LOAD obj/main/CJMCU/startup_stm32f10x_md_gcc.o
 LOAD obj/main/CJMCU/drivers/adc.o
-LOAD C:\cygwin64\tmp\cceEUuCd.ltrans0.ltrans.o
-LOAD C:\cygwin64\tmp\cceEUuCd.ltrans1.ltrans.o
-LOAD C:\cygwin64\tmp\cceEUuCd.ltrans2.ltrans.o
-LOAD C:\cygwin64\tmp\cceEUuCd.ltrans3.ltrans.o
-LOAD C:\cygwin64\tmp\cceEUuCd.ltrans4.ltrans.o
-LOAD C:\cygwin64\tmp\cceEUuCd.ltrans5.ltrans.o
-LOAD C:\cygwin64\tmp\cceEUuCd.ltrans6.ltrans.o
-LOAD C:\cygwin64\tmp\cceEUuCd.ltrans7.ltrans.o
-LOAD C:\cygwin64\tmp\cceEUuCd.ltrans8.ltrans.o
-LOAD C:\cygwin64\tmp\cceEUuCd.ltrans9.ltrans.o
-LOAD C:\cygwin64\tmp\cceEUuCd.ltrans10.ltrans.o
-LOAD C:\cygwin64\tmp\cceEUuCd.ltrans11.ltrans.o
-LOAD C:\cygwin64\tmp\cceEUuCd.ltrans12.ltrans.o
+LOAD C:\cygwin64\tmp\cclsPPfA.ltrans0.ltrans.o
+LOAD C:\cygwin64\tmp\cclsPPfA.ltrans1.ltrans.o
+LOAD C:\cygwin64\tmp\cclsPPfA.ltrans2.ltrans.o
+LOAD C:\cygwin64\tmp\cclsPPfA.ltrans3.ltrans.o
+LOAD C:\cygwin64\tmp\cclsPPfA.ltrans4.ltrans.o
+LOAD C:\cygwin64\tmp\cclsPPfA.ltrans5.ltrans.o
+LOAD C:\cygwin64\tmp\cclsPPfA.ltrans6.ltrans.o
+LOAD C:\cygwin64\tmp\cclsPPfA.ltrans7.ltrans.o
+LOAD C:\cygwin64\tmp\cclsPPfA.ltrans8.ltrans.o
+LOAD C:\cygwin64\tmp\cclsPPfA.ltrans9.ltrans.o
+LOAD C:\cygwin64\tmp\cclsPPfA.ltrans10.ltrans.o
+LOAD C:\cygwin64\tmp\cclsPPfA.ltrans11.ltrans.o
+LOAD C:\cygwin64\tmp\cclsPPfA.ltrans12.ltrans.o
 LOAD c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a
 LOAD c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libg_s.a
 LOAD c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a
@@ -476,16 +476,16 @@ END GROUP
                 0x08000000                g_pfnVectors
                 0x0800010c                . = ALIGN (0x4)
 
-.text           0x08000110     0xdb14
+.text           0x08000110     0xdb1c
                 0x08000110                . = ALIGN (0x4)
  *(.text)
- .text          0x08000110     0x1524 C:\cygwin64\tmp\cceEUuCd.ltrans1.ltrans.o
+ .text          0x08000110     0x1524 C:\cygwin64\tmp\cclsPPfA.ltrans1.ltrans.o
                 0x08000110                init
- .text          0x08001634     0x199c C:\cygwin64\tmp\cceEUuCd.ltrans2.ltrans.o
+ .text          0x08001634     0x199c C:\cygwin64\tmp\cclsPPfA.ltrans2.ltrans.o
                 0x08001634                annexCode
- .text          0x08002fd0     0x10b4 C:\cygwin64\tmp\cceEUuCd.ltrans3.ltrans.o
+ .text          0x08002fd0     0x10b4 C:\cygwin64\tmp\cclsPPfA.ltrans3.ltrans.o
                 0x08002fd0                processRx
- .text          0x08004084     0x1434 C:\cygwin64\tmp\cceEUuCd.ltrans4.ltrans.o
+ .text          0x08004084     0x1434 C:\cygwin64\tmp\cclsPPfA.ltrans4.ltrans.o
                 0x08004148                xBusReadRawRC.10657
                 0x08004160                spektrumReadRawRC.10512
                 0x08004188                sumhReadRawRC.10396
@@ -551,7 +551,7 @@ END GROUP
                 0x08005384                timCCxHandler.5581
                 0x0800540a                lookupTimerIndex.5571
                 0x08005444                gpioInit
- .text          0x080054b8      0x9b0 C:\cygwin64\tmp\cceEUuCd.ltrans5.ltrans.o
+ .text          0x080054b8      0x9b0 C:\cygwin64\tmp\cclsPPfA.ltrans5.ltrans.o
                 0x080054b8                timerChConfigCallbacks
                 0x08005560                i2c_ev_handler.4335
                 0x0800580c                updateBatteryVoltage.10886
@@ -563,7 +563,7 @@ END GROUP
                 0x08005e10                isModeActivationConditionPresent.constprop.51
                 0x08005e2e                suspendRxSignal
                 0x08005e60                headSerialError.9601.constprop.10
- .text          0x08005e68      0xe7c C:\cygwin64\tmp\cceEUuCd.ltrans6.ltrans.o
+ .text          0x08005e68      0xe7c C:\cygwin64\tmp\cclsPPfA.ltrans6.ltrans.o
                 0x08005e68                pidMultiWiiHybrid.8010
                 0x08006174                pidMultiWii23.8017
                 0x0800642c                pidHarakiri.8024
@@ -575,7 +575,7 @@ END GROUP
                 0x08006c3c                uartSetMode
                 0x08006c40                uartSetBaudRate
                 0x08006c44                writeMotors
- .text          0x08006ce4      0xe34 C:\cygwin64\tmp\cceEUuCd.ltrans7.ltrans.o
+ .text          0x08006ce4      0xe34 C:\cygwin64\tmp\cclsPPfA.ltrans7.ltrans.o
                 0x08006ce4                _putc.6614
                 0x08006cf8                pidLuxFloat.8031
                 0x08007044                pidRewrite.8038
@@ -584,7 +584,7 @@ END GROUP
                 0x080075d4                resetConf.6385
                 0x080079d0                usartIrqCallback
                 0x08007a36                imuCalculateHeading
- .text          0x08007b18      0x8c0 C:\cygwin64\tmp\cceEUuCd.ltrans8.ltrans.o
+ .text          0x08007b18      0x8c0 C:\cygwin64\tmp\cclsPPfA.ltrans8.ltrans.o
                 0x08007b18                uartWrite
                 0x08007b94                mpu6050AccInit.4260
                 0x08007bc0                mpu6050GyroInit.4262
@@ -598,14 +598,14 @@ END GROUP
                 0x080082f8                stopMotors
                 0x08008344                getRxfailValue.9877
                 0x0800839c                calculateThrottleStatus
- .text          0x080083d8      0x54c C:\cygwin64\tmp\cceEUuCd.ltrans9.ltrans.o
+ .text          0x080083d8      0x54c C:\cygwin64\tmp\cclsPPfA.ltrans9.ltrans.o
                 0x08008670                ms5611_start_up.5908
                 0x0800867a                ms5611_start_ut.5910
                 0x08008684                mpuWriteRegisterI2C.4176
                 0x08008690                hmc5883lInit
                 0x08008830                openSerialPort
                 0x0800888c                spektrumInit.constprop.32
- .text          0x08008924      0x464 C:\cygwin64\tmp\cceEUuCd.ltrans10.ltrans.o
+ .text          0x08008924      0x464 C:\cygwin64\tmp\cclsPPfA.ltrans10.ltrans.o
                 0x08008924                i2cInit
                 0x08008b30                i2cWrite
                 0x08008bb0                i2cRead
@@ -614,7 +614,7 @@ END GROUP
                 0x08008c74                hmc5883lRead
                 0x08008cec                mpuReadRegisterI2C.4180
                 0x08008d00                i2c_er_handler.4346
- .text          0x08008d88       0xb4 C:\cygwin64\tmp\cceEUuCd.ltrans11.ltrans.o
+ .text          0x08008d88       0xb4 C:\cygwin64\tmp\cclsPPfA.ltrans11.ltrans.o
                 0x08008d88                TIM4_IRQHandler
                 0x08008d98                TIM3_IRQHandler
                 0x08008da8                TIM2_IRQHandler
@@ -627,7 +627,7 @@ END GROUP
                 0x08008e30                I2C1_ER_IRQHandler
                 0x08008e34                I2C2_EV_IRQHandler
                 0x08008e38                I2C1_EV_IRQHandler
- .text          0x08008e3c       0x84 C:\cygwin64\tmp\cceEUuCd.ltrans12.ltrans.o
+ .text          0x08008e3c       0x84 C:\cygwin64\tmp\cclsPPfA.ltrans12.ltrans.o
                 0x08008e3c                SystemInit
                 0x08008e88                SysTick_Handler
                 0x08008e98                EXTI3_IRQHandler
@@ -781,102 +781,102 @@ END GROUP
                 0x0800a57c                FLASH_IRQHandler
                 0x0800a57c                BusFault_Handler
                 0x0800a57c                USBWakeUp_IRQHandler
- .text.startup  0x0800a580     0x1b68 C:\cygwin64\tmp\cceEUuCd.ltrans0.ltrans.o
+ .text.startup  0x0800a580     0x1b70 C:\cygwin64\tmp\cclsPPfA.ltrans0.ltrans.o
                 0x0800a580                main
- .text.memcpy   0x0800c0e8       0x12 c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libg_s.a(lib_a-memcpy-stub.o)
-                0x0800c0e8                memcpy
- .text.memset   0x0800c0fa       0x10 c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libg_s.a(lib_a-memset.o)
-                0x0800c0fa                memset
- .text.strchr   0x0800c10a       0x1a c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libg_s.a(lib_a-strchr.o)
-                0x0800c10a                strchr
- .text.strlen   0x0800c124       0x10 c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libg_s.a(lib_a-strlen.o)
-                0x0800c124                strlen
- .text.lrintf   0x0800c134       0x7c c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libm.a(lib_a-sf_lrint.o)
-                0x0800c134                lrintf
- .text.acosf    0x0800c1b0       0xa0 c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libm.a(lib_a-wf_acos.o)
-                0x0800c1b0                acosf
- .text.atan2f   0x0800c250        0x4 c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libm.a(lib_a-wf_atan2.o)
-                0x0800c250                atan2f
- .text.powf     0x0800c254      0x310 c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libm.a(lib_a-wf_pow.o)
-                0x0800c254                powf
- .text.sqrtf    0x0800c564       0x9c c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libm.a(lib_a-wf_sqrt.o)
-                0x0800c564                sqrtf
+ .text.memcpy   0x0800c0f0       0x12 c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libg_s.a(lib_a-memcpy-stub.o)
+                0x0800c0f0                memcpy
+ .text.memset   0x0800c102       0x10 c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libg_s.a(lib_a-memset.o)
+                0x0800c102                memset
+ .text.strchr   0x0800c112       0x1a c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libg_s.a(lib_a-strchr.o)
+                0x0800c112                strchr
+ .text.strlen   0x0800c12c       0x10 c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libg_s.a(lib_a-strlen.o)
+                0x0800c12c                strlen
+ .text.lrintf   0x0800c13c       0x7c c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libm.a(lib_a-sf_lrint.o)
+                0x0800c13c                lrintf
+ .text.acosf    0x0800c1b8       0xa0 c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libm.a(lib_a-wf_acos.o)
+                0x0800c1b8                acosf
+ .text.atan2f   0x0800c258        0x4 c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libm.a(lib_a-wf_atan2.o)
+                0x0800c258                atan2f
+ .text.powf     0x0800c25c      0x310 c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libm.a(lib_a-wf_pow.o)
+                0x0800c25c                powf
+ .text.sqrtf    0x0800c56c       0x9c c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libm.a(lib_a-wf_sqrt.o)
+                0x0800c56c                sqrtf
  .text.__ieee754_acosf
-                0x0800c600      0x2d0 c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libm.a(lib_a-ef_acos.o)
-                0x0800c600                __ieee754_acosf
+                0x0800c608      0x2d0 c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libm.a(lib_a-ef_acos.o)
+                0x0800c608                __ieee754_acosf
  .text.__ieee754_atan2f
-                0x0800c8d0      0x120 c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libm.a(lib_a-ef_atan2.o)
-                0x0800c8d0                __ieee754_atan2f
+                0x0800c8d8      0x120 c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libm.a(lib_a-ef_atan2.o)
+                0x0800c8d8                __ieee754_atan2f
  .text.__ieee754_powf
-                0x0800c9f0      0x6f8 c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libm.a(lib_a-ef_pow.o)
-                0x0800c9f0                __ieee754_powf
+                0x0800c9f8      0x6f8 c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libm.a(lib_a-ef_pow.o)
+                0x0800c9f8                __ieee754_powf
  .text.__ieee754_sqrtf
-                0x0800d0e8       0xa8 c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libm.a(lib_a-ef_sqrt.o)
-                0x0800d0e8                __ieee754_sqrtf
- .text.matherr  0x0800d190        0x4 c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libm.a(lib_a-s_matherr.o)
-                0x0800d190                matherr
- .text.nan      0x0800d194        0xc c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libm.a(lib_a-s_nan.o)
-                0x0800d194                nan
- .text.rint     0x0800d1a0      0x118 c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libm.a(lib_a-s_rint.o)
-                0x0800d1a0                rint
- .text.atanf    0x0800d2b8      0x22c c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libm.a(lib_a-sf_atan.o)
-                0x0800d2b8                atanf
- .text.fabsf    0x0800d4e4        0x8 c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libm.a(lib_a-sf_fabs.o)
-                0x0800d4e4                fabsf
- .text.finitef  0x0800d4ec       0x10 c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libm.a(lib_a-sf_finite.o)
-                0x0800d4ec                finitef
+                0x0800d0f0       0xa8 c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libm.a(lib_a-ef_sqrt.o)
+                0x0800d0f0                __ieee754_sqrtf
+ .text.matherr  0x0800d198        0x4 c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libm.a(lib_a-s_matherr.o)
+                0x0800d198                matherr
+ .text.nan      0x0800d19c        0xc c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libm.a(lib_a-s_nan.o)
+                0x0800d19c                nan
+ .text.rint     0x0800d1a8      0x118 c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libm.a(lib_a-s_rint.o)
+                0x0800d1a8                rint
+ .text.atanf    0x0800d2c0      0x22c c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libm.a(lib_a-sf_atan.o)
+                0x0800d2c0                atanf
+ .text.fabsf    0x0800d4ec        0x8 c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libm.a(lib_a-sf_fabs.o)
+                0x0800d4ec                fabsf
+ .text.finitef  0x0800d4f4       0x10 c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libm.a(lib_a-sf_finite.o)
+                0x0800d4f4                finitef
  .text.__fpclassifyf
-                0x0800d4fc       0x34 c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libm.a(lib_a-sf_fpclassify.o)
-                0x0800d4fc                __fpclassifyf
- .text.nanf     0x0800d530        0x8 c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libm.a(lib_a-sf_nan.o)
-                0x0800d530                nanf
- .text.scalbnf  0x0800d538       0xb4 c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libm.a(lib_a-sf_scalbn.o)
-                0x0800d538                scalbnf
+                0x0800d504       0x34 c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libm.a(lib_a-sf_fpclassify.o)
+                0x0800d504                __fpclassifyf
+ .text.nanf     0x0800d538        0x8 c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libm.a(lib_a-sf_nan.o)
+                0x0800d538                nanf
+ .text.scalbnf  0x0800d540       0xb4 c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libm.a(lib_a-sf_scalbn.o)
+                0x0800d540                scalbnf
  .text.copysignf
-                0x0800d5ec        0xc c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libm.a(lib_a-sf_copysign.o)
-                0x0800d5ec                copysignf
- .text.__errno  0x0800d5f8        0xc c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-errno.o)
-                0x0800d5f8                __errno
+                0x0800d5f4        0xc c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libm.a(lib_a-sf_copysign.o)
+                0x0800d5f4                copysignf
+ .text.__errno  0x0800d600        0xc c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-errno.o)
+                0x0800d600                __errno
  *(.rodata)
- .rodata        0x0800d604       0xc4 C:\cygwin64\tmp\cceEUuCd.ltrans1.ltrans.o
- .rodata        0x0800d6c8      0x180 C:\cygwin64\tmp\cceEUuCd.ltrans2.ltrans.o
- .rodata        0x0800d848       0x3c C:\cygwin64\tmp\cceEUuCd.ltrans3.ltrans.o
- .rodata        0x0800d884       0xf0 C:\cygwin64\tmp\cceEUuCd.ltrans4.ltrans.o
- .rodata        0x0800d974       0x1c C:\cygwin64\tmp\cceEUuCd.ltrans9.ltrans.o
- .rodata        0x0800d990       0x28 C:\cygwin64\tmp\cceEUuCd.ltrans10.ltrans.o
+ .rodata        0x0800d60c       0xc4 C:\cygwin64\tmp\cclsPPfA.ltrans1.ltrans.o
+ .rodata        0x0800d6d0      0x180 C:\cygwin64\tmp\cclsPPfA.ltrans2.ltrans.o
+ .rodata        0x0800d850       0x3c C:\cygwin64\tmp\cclsPPfA.ltrans3.ltrans.o
+ .rodata        0x0800d88c       0xf0 C:\cygwin64\tmp\cclsPPfA.ltrans4.ltrans.o
+ .rodata        0x0800d97c       0x1c C:\cygwin64\tmp\cclsPPfA.ltrans9.ltrans.o
+ .rodata        0x0800d998       0x28 C:\cygwin64\tmp\cclsPPfA.ltrans10.ltrans.o
  *(.rodata*)
  .rodata.timerHardware
-                0x0800d9b8       0xe0 C:\cygwin64\tmp\cceEUuCd.ltrans1.ltrans.o
+                0x0800d9c0       0xe0 C:\cygwin64\tmp\cclsPPfA.ltrans1.ltrans.o
  .rodata.str1.1
-                0x0800da98       0xff C:\cygwin64\tmp\cceEUuCd.ltrans2.ltrans.o
+                0x0800daa0       0xff C:\cygwin64\tmp\cclsPPfA.ltrans2.ltrans.o
  .rodata.str1.1
-                0x0800db97        0x9 C:\cygwin64\tmp\cceEUuCd.ltrans7.ltrans.o
+                0x0800db9f        0x9 C:\cygwin64\tmp\cclsPPfA.ltrans7.ltrans.o
  .rodata.rcChannelLetters
-                0x0800dba0       0x15 C:\cygwin64\tmp\cceEUuCd.ltrans7.ltrans.o
- *fill*         0x0800dbb5        0x3 
- .rodata.TWO23  0x0800dbb8        0x8 c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libm.a(lib_a-sf_lrint.o)
+                0x0800dba8       0x15 C:\cygwin64\tmp\cclsPPfA.ltrans7.ltrans.o
+ *fill*         0x0800dbbd        0x3 
+ .rodata.TWO23  0x0800dbc0        0x8 c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libm.a(lib_a-sf_lrint.o)
  .rodata.str1.4
-                0x0800dbc0        0x6 c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libm.a(lib_a-wf_acos.o)
+                0x0800dbc8        0x6 c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libm.a(lib_a-wf_acos.o)
                                   0xc (size before relaxing)
- *fill*         0x0800dbc6        0x2 
+ *fill*         0x0800dbce        0x2 
  .rodata.str1.4
-                0x0800dbc8        0x5 c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libm.a(lib_a-wf_pow.o)
+                0x0800dbd0        0x5 c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libm.a(lib_a-wf_pow.o)
                                   0x8 (size before relaxing)
- *fill*         0x0800dbcd        0x3 
+ *fill*         0x0800dbd5        0x3 
  .rodata.str1.4
-                0x0800dbd0        0x8 c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libm.a(lib_a-wf_sqrt.o)
- .rodata.dp_h   0x0800dbd8        0x8 c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libm.a(lib_a-ef_pow.o)
- .rodata.dp_l   0x0800dbe0        0x8 c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libm.a(lib_a-ef_pow.o)
- .rodata.bp     0x0800dbe8        0x8 c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libm.a(lib_a-ef_pow.o)
+                0x0800dbd8        0x8 c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libm.a(lib_a-wf_sqrt.o)
+ .rodata.dp_h   0x0800dbe0        0x8 c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libm.a(lib_a-ef_pow.o)
+ .rodata.dp_l   0x0800dbe8        0x8 c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libm.a(lib_a-ef_pow.o)
+ .rodata.bp     0x0800dbf0        0x8 c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libm.a(lib_a-ef_pow.o)
  .rodata.str1.4
                 0x00000000        0x4 c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libm.a(lib_a-ef_pow.o)
- .rodata.TWO52  0x0800dbf0       0x10 c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libm.a(lib_a-s_rint.o)
+ .rodata.TWO52  0x0800dbf8       0x10 c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libm.a(lib_a-s_rint.o)
  .rodata.atanlo
-                0x0800dc00       0x10 c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libm.a(lib_a-sf_atan.o)
+                0x0800dc08       0x10 c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libm.a(lib_a-sf_atan.o)
  .rodata.atanhi
-                0x0800dc10       0x10 c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libm.a(lib_a-sf_atan.o)
+                0x0800dc18       0x10 c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libm.a(lib_a-sf_atan.o)
  .rodata.str1.1
-                0x0800dc20        0x2 c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-impure.o)
+                0x0800dc28        0x2 c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-impure.o)
  *(.glue_7)
  .glue_7        0x00000000        0x0 linker stubs
  *(.glue_7t)
@@ -884,78 +884,78 @@ END GROUP
  *(.eh_frame)
  *(.init)
  *(.fini)
-                0x0800dc24                . = ALIGN (0x4)
- *fill*         0x0800dc22        0x2 
-                0x0800dc24                _etext = .
+                0x0800dc2c                . = ALIGN (0x4)
+ *fill*         0x0800dc2a        0x2 
+                0x0800dc2c                _etext = .
 
-.vfp11_veneer   0x0800dc24        0x0
+.vfp11_veneer   0x0800dc2c        0x0
  .vfp11_veneer  0x00000000        0x0 linker stubs
 
-.v4_bx          0x0800dc24        0x0
+.v4_bx          0x0800dc2c        0x0
  .v4_bx         0x00000000        0x0 linker stubs
 
-.iplt           0x0800dc24        0x0
+.iplt           0x0800dc2c        0x0
  .iplt          0x00000000        0x0 obj/main/CJMCU/startup_stm32f10x_md_gcc.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
 
-.ARM            0x0800dc24        0x8
-                0x0800dc24                __exidx_start = .
+.ARM            0x0800dc2c        0x8
+                0x0800dc2c                __exidx_start = .
  *(.ARM.exidx*)
- .ARM.exidx     0x0800dc24        0x8 c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(_divdi3.o)
- .ARM.exidx     0x0800dc2c        0x0 c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(_udivdi3.o)
+ .ARM.exidx     0x0800dc2c        0x8 c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(_divdi3.o)
+ .ARM.exidx     0x0800dc34        0x0 c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(_udivdi3.o)
                                   0x8 (size before relaxing)
-                0x0800dc2c                __exidx_end = .
+                0x0800dc34                __exidx_end = .
 
-.rel.dyn        0x0800dc2c        0x0
+.rel.dyn        0x0800dc34        0x0
  .rel.iplt      0x00000000        0x0 obj/main/CJMCU/startup_stm32f10x_md_gcc.o
 
-.preinit_array  0x0800dc2c        0x0
-                0x0800dc2c                PROVIDE (__preinit_array_start, .)
+.preinit_array  0x0800dc34        0x0
+                0x0800dc34                PROVIDE (__preinit_array_start, .)
  *(.preinit_array*)
-                0x0800dc2c                PROVIDE (__preinit_array_end, .)
+                0x0800dc34                PROVIDE (__preinit_array_end, .)
 
-.init_array     0x0800dc2c        0x0
-                0x0800dc2c                PROVIDE (__init_array_start, .)
+.init_array     0x0800dc34        0x0
+                0x0800dc34                PROVIDE (__init_array_start, .)
  *(SORT(.init_array.*))
  *(.init_array*)
-                0x0800dc2c                PROVIDE (__init_array_end, .)
+                0x0800dc34                PROVIDE (__init_array_end, .)
 
-.fini_array     0x0800dc2c        0x0
-                0x0800dc2c                PROVIDE (__fini_array_start, .)
+.fini_array     0x0800dc34        0x0
+                0x0800dc34                PROVIDE (__fini_array_start, .)
  *(.fini_array*)
  *(SORT(.fini_array.*))
-                0x0800dc2c                PROVIDE (__fini_array_end, .)
-                0x0800dc2c                _sidata = .
+                0x0800dc34                PROVIDE (__fini_array_end, .)
+                0x0800dc34                _sidata = .
 
-.data           0x20000000       0xac load address 0x0800dc2c
+.data           0x20000000       0xac load address 0x0800dc34
                 0x20000000                . = ALIGN (0x4)
                 0x20000000                _sdata = .
  *(.data)
- .data          0x20000000       0x1c C:\cygwin64\tmp\cceEUuCd.ltrans0.ltrans.o
+ .data          0x20000000       0x1c C:\cygwin64\tmp\cclsPPfA.ltrans0.ltrans.o
                 0x20000000                rxIsInFailsafeMode.10019
                 0x20000001                rxIsInFailsafeModeNotDataDriven.10018
                 0x2000000a                acc_1G
                 0x20000018                isUsingSticksToArm.9000
- .data          0x2000001c        0xc C:\cygwin64\tmp\cceEUuCd.ltrans1.ltrans.o
+ .data          0x2000001c        0xc C:\cygwin64\tmp\cclsPPfA.ltrans1.ltrans.o
                 0x2000001c                hse_value
                 0x20000020                standardBoardAlignment.11030
                 0x20000024                rcReadRawFunc.10003
- .data          0x20000028        0xc C:\cygwin64\tmp\cceEUuCd.ltrans9.ltrans.o
+ .data          0x20000028        0xc C:\cygwin64\tmp\cclsPPfA.ltrans9.ltrans.o
                 0x20000028                magGain.4545
  *(.data*)
  .data.pid_controller
-                0x20000034        0x4 C:\cygwin64\tmp\cceEUuCd.ltrans0.ltrans.o
+                0x20000034        0x4 C:\cygwin64\tmp\cclsPPfA.ltrans0.ltrans.o
                 0x20000034                pid_controller
  .data.detectedSensors
-                0x20000038        0x4 C:\cygwin64\tmp\cceEUuCd.ltrans1.ltrans.o
+                0x20000038        0x4 C:\cygwin64\tmp\cclsPPfA.ltrans1.ltrans.o
  .data.batteryCellCount
-                0x2000003c        0x1 C:\cygwin64\tmp\cceEUuCd.ltrans1.ltrans.o
+                0x2000003c        0x1 C:\cygwin64\tmp\cclsPPfA.ltrans1.ltrans.o
                 0x2000003c                batteryCellCount
  *fill*         0x2000003d        0x3 
  .data.SystemCoreClock
-                0x20000040        0x4 C:\cygwin64\tmp\cceEUuCd.ltrans1.ltrans.o
+                0x20000040        0x4 C:\cygwin64\tmp\cclsPPfA.ltrans1.ltrans.o
                 0x20000040                SystemCoreClock
  .data.__fdlib_version
                 0x20000044        0x1 c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libm.a(lib_a-s_lib_ver.o)
@@ -969,15 +969,15 @@ END GROUP
                 0x200000ac                . = ALIGN (0x4)
                 0x200000ac                _edata = .
 
-.igot.plt       0x200000ac        0x0 load address 0x0800dcd8
+.igot.plt       0x200000ac        0x0 load address 0x0800dce0
  .igot.plt      0x00000000        0x0 obj/main/CJMCU/startup_stm32f10x_md_gcc.o
                 0x200000ac                . = ALIGN (0x4)
 
-.bss            0x200000b0     0x183c load address 0x0800dcd8
+.bss            0x200000b0     0x183c load address 0x0800dce0
                 0x200000b0                _sbss = .
                 0x200000b0                __bss_start__ = _sbss
  *(.bss)
- .bss           0x200000b0      0xae4 C:\cygwin64\tmp\cceEUuCd.ltrans0.ltrans.o
+ .bss           0x200000b0      0xae4 C:\cygwin64\tmp\cclsPPfA.ltrans0.ltrans.o
                 0x200000b0                rxSignalReceived.10007
                 0x200000b8                rxSignalReceivedNotDataDriven.10009
                 0x200000bc                activeFeaturesLatch.6452
@@ -1061,7 +1061,7 @@ END GROUP
                 0x20000b74                flight3DConfig.8388
                 0x20000b78                motorControlEnable
                 0x20000b7a                motor_disarmed
- .bss           0x20000b94      0x338 C:\cygwin64\tmp\cceEUuCd.ltrans1.ltrans.o
+ .bss           0x20000b94      0x338 C:\cygwin64\tmp\cclsPPfA.ltrans1.ltrans.o
                 0x20000ba0                usTicks.8641
                 0x20000ba4                extiHandlerConfigs.8640
                 0x20000bc0                serialConfig.9234
@@ -1097,7 +1097,7 @@ END GROUP
                 0x20000ec6                batteryWarningVoltage
                 0x20000ec8                batteryCriticalVoltage
  *fill*         0x20000ecc        0x4 
- .bss           0x20000ed0       0xc0 C:\cygwin64\tmp\cceEUuCd.ltrans2.ltrans.o
+ .bss           0x20000ed0       0xc0 C:\cygwin64\tmp\cclsPPfA.ltrans2.ltrans.o
                 0x20000ed0                lookupPitchRollRC
                 0x20000ede                lookupYawRC
                 0x20000eec                dynP8
@@ -1119,7 +1119,7 @@ END GROUP
                 0x20000f5e                mspFrame.10133
                 0x20000f84                escAndServoConfig.9009
                 0x20000f88                pidProfile.9010
- .bss           0x20000f90      0x104 C:\cygwin64\tmp\cceEUuCd.ltrans3.ltrans.o
+ .bss           0x20000f90      0x104 C:\cygwin64\tmp\cclsPPfA.ltrans3.ltrans.o
                 0x20000f90                skipRxSamples.10029
                 0x20000f94                suspendRxSignalUntil.10028
                 0x2000103c                failsafeConfig.7901
@@ -1128,20 +1128,20 @@ END GROUP
                 0x20001058                disarmAt.7608
                 0x20001060                adjustmentStates
                 0x20001091                currentControlRateProfileIndex.6449
- .bss           0x20001094       0x88 C:\cygwin64\tmp\cceEUuCd.ltrans4.ltrans.o
+ .bss           0x20001094       0x88 C:\cygwin64\tmp\cclsPPfA.ltrans4.ltrans.o
  *fill*         0x2000111c        0x4 
- .bss           0x20001120      0x158 C:\cygwin64\tmp\cceEUuCd.ltrans5.ltrans.o
- .bss           0x20001278       0x40 C:\cygwin64\tmp\cceEUuCd.ltrans6.ltrans.o
+ .bss           0x20001120      0x158 C:\cygwin64\tmp\cclsPPfA.ltrans5.ltrans.o
+ .bss           0x20001278       0x40 C:\cygwin64\tmp\cclsPPfA.ltrans6.ltrans.o
                 0x200012a0                errorAngleIf.8088
- .bss           0x200012b8       0x7c C:\cygwin64\tmp\cceEUuCd.ltrans7.ltrans.o
+ .bss           0x200012b8       0x7c C:\cygwin64\tmp\cclsPPfA.ltrans7.ltrans.o
                 0x200012bc                PTermState.8073
                 0x200012ec                DTermState.8077
- .bss           0x20001334       0x2c C:\cygwin64\tmp\cceEUuCd.ltrans8.ltrans.o
+ .bss           0x20001334       0x2c C:\cygwin64\tmp\cclsPPfA.ltrans8.ltrans.o
                 0x20001338                errorAngleI.8069
- .bss           0x20001360      0x401 C:\cygwin64\tmp\cceEUuCd.ltrans9.ltrans.o
+ .bss           0x20001360      0x401 C:\cygwin64\tmp\cclsPPfA.ltrans9.ltrans.o
                 0x20001760                spekHiRes.10616
  *fill*         0x20001761        0x3 
- .bss           0x20001764       0x20 C:\cygwin64\tmp\cceEUuCd.ltrans10.ltrans.o
+ .bss           0x20001764       0x20 C:\cygwin64\tmp\cclsPPfA.ltrans10.ltrans.o
                 0x20001764                I2Cx.4435
                 0x2000176a                i2cErrorCount.4461
                 0x2000176c                addr.4443
@@ -1154,37 +1154,37 @@ END GROUP
                 0x20001779                busy.4448
                 0x2000177c                ms5611_ut.5937
                 0x20001780                ms5611_up.5938
- .bss           0x20001784      0x148 C:\cygwin64\tmp\cceEUuCd.ltrans11.ltrans.o
+ .bss           0x20001784      0x148 C:\cygwin64\tmp\cclsPPfA.ltrans11.ltrans.o
                 0x20001784                timerConfig
                 0x20001824                uartPort2.5409
                 0x20001878                uartPort1.5408
- .bss           0x200018cc        0x8 C:\cygwin64\tmp\cceEUuCd.ltrans12.ltrans.o
+ .bss           0x200018cc        0x8 C:\cygwin64\tmp\cclsPPfA.ltrans12.ltrans.o
                 0x200018cc                sysTickUptime.8642
                 0x200018d0                systemState.7131
  *(SORT(.bss*))
  .bss.currentTime
-                0x200018d4        0x4 C:\cygwin64\tmp\cceEUuCd.ltrans0.ltrans.o
+                0x200018d4        0x4 C:\cygwin64\tmp\cclsPPfA.ltrans0.ltrans.o
                 0x200018d4                currentTime
  .bss.accTimeSum
-                0x200018d8        0x4 C:\cygwin64\tmp\cceEUuCd.ltrans0.ltrans.o
+                0x200018d8        0x4 C:\cygwin64\tmp\cclsPPfA.ltrans0.ltrans.o
  .bss.setVelocity
-                0x200018dc        0x4 C:\cygwin64\tmp\cceEUuCd.ltrans0.ltrans.o
+                0x200018dc        0x4 C:\cygwin64\tmp\cclsPPfA.ltrans0.ltrans.o
  .bss.calibratingB
-                0x200018e0        0x2 C:\cygwin64\tmp\cceEUuCd.ltrans0.ltrans.o
+                0x200018e0        0x2 C:\cygwin64\tmp\cclsPPfA.ltrans0.ltrans.o
                 0x200018e0                calibratingB
  .bss.calibratingG
-                0x200018e2        0x2 C:\cygwin64\tmp\cceEUuCd.ltrans0.ltrans.o
+                0x200018e2        0x2 C:\cygwin64\tmp\cclsPPfA.ltrans0.ltrans.o
                 0x200018e2                calibratingG
- .bss.accAlign  0x200018e4        0x1 C:\cygwin64\tmp\cceEUuCd.ltrans0.ltrans.o
+ .bss.accAlign  0x200018e4        0x1 C:\cygwin64\tmp\cclsPPfA.ltrans0.ltrans.o
                 0x200018e4                accAlign
- .bss.magAlign  0x200018e5        0x1 C:\cygwin64\tmp\cceEUuCd.ltrans0.ltrans.o
+ .bss.magAlign  0x200018e5        0x1 C:\cygwin64\tmp\cclsPPfA.ltrans0.ltrans.o
                 0x200018e5                magAlign
  .bss.armingFlags
-                0x200018e6        0x1 C:\cygwin64\tmp\cceEUuCd.ltrans0.ltrans.o
+                0x200018e6        0x1 C:\cygwin64\tmp\cclsPPfA.ltrans0.ltrans.o
                 0x200018e6                armingFlags
  .bss.hardwareRevision
-                0x200018e7        0x1 C:\cygwin64\tmp\cceEUuCd.ltrans1.ltrans.o
- .bss.cliMode   0x200018e8        0x1 C:\cygwin64\tmp\cceEUuCd.ltrans3.ltrans.o
+                0x200018e7        0x1 C:\cygwin64\tmp\cclsPPfA.ltrans1.ltrans.o
+ .bss.cliMode   0x200018e8        0x1 C:\cygwin64\tmp\cclsPPfA.ltrans3.ltrans.o
  *(COMMON)
                 0x200018ec                . = ALIGN (0x4)
  *fill*         0x200018e9        0x3 
@@ -1192,7 +1192,7 @@ END GROUP
                 0x200018ec                __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x200018ec      0x400 load address 0x0800dcd8
+                0x200018ec      0x400 load address 0x0800dce0
                 0x200018ec                . = ALIGN (0x4)
                 0x200018ec                PROVIDE (end, .)
                 0x200018ec                PROVIDE (_end, .)
@@ -1218,31 +1218,31 @@ END GROUP
  .ARM.attributes
                 0x00000000       0x21 obj/main/CJMCU/startup_stm32f10x_md_gcc.o
  .ARM.attributes
-                0x00000021       0x31 C:\cygwin64\tmp\cceEUuCd.ltrans0.ltrans.o
+                0x00000021       0x31 C:\cygwin64\tmp\cclsPPfA.ltrans0.ltrans.o
  .ARM.attributes
-                0x00000052       0x31 C:\cygwin64\tmp\cceEUuCd.ltrans1.ltrans.o
+                0x00000052       0x31 C:\cygwin64\tmp\cclsPPfA.ltrans1.ltrans.o
  .ARM.attributes
-                0x00000083       0x31 C:\cygwin64\tmp\cceEUuCd.ltrans2.ltrans.o
+                0x00000083       0x31 C:\cygwin64\tmp\cclsPPfA.ltrans2.ltrans.o
  .ARM.attributes
-                0x000000b4       0x31 C:\cygwin64\tmp\cceEUuCd.ltrans3.ltrans.o
+                0x000000b4       0x31 C:\cygwin64\tmp\cclsPPfA.ltrans3.ltrans.o
  .ARM.attributes
-                0x000000e5       0x31 C:\cygwin64\tmp\cceEUuCd.ltrans4.ltrans.o
+                0x000000e5       0x31 C:\cygwin64\tmp\cclsPPfA.ltrans4.ltrans.o
  .ARM.attributes
-                0x00000116       0x31 C:\cygwin64\tmp\cceEUuCd.ltrans5.ltrans.o
+                0x00000116       0x31 C:\cygwin64\tmp\cclsPPfA.ltrans5.ltrans.o
  .ARM.attributes
-                0x00000147       0x31 C:\cygwin64\tmp\cceEUuCd.ltrans6.ltrans.o
+                0x00000147       0x31 C:\cygwin64\tmp\cclsPPfA.ltrans6.ltrans.o
  .ARM.attributes
-                0x00000178       0x31 C:\cygwin64\tmp\cceEUuCd.ltrans7.ltrans.o
+                0x00000178       0x31 C:\cygwin64\tmp\cclsPPfA.ltrans7.ltrans.o
  .ARM.attributes
-                0x000001a9       0x31 C:\cygwin64\tmp\cceEUuCd.ltrans8.ltrans.o
+                0x000001a9       0x31 C:\cygwin64\tmp\cclsPPfA.ltrans8.ltrans.o
  .ARM.attributes
-                0x000001da       0x31 C:\cygwin64\tmp\cceEUuCd.ltrans9.ltrans.o
+                0x000001da       0x31 C:\cygwin64\tmp\cclsPPfA.ltrans9.ltrans.o
  .ARM.attributes
-                0x0000020b       0x31 C:\cygwin64\tmp\cceEUuCd.ltrans10.ltrans.o
+                0x0000020b       0x31 C:\cygwin64\tmp\cclsPPfA.ltrans10.ltrans.o
  .ARM.attributes
-                0x0000023c       0x31 C:\cygwin64\tmp\cceEUuCd.ltrans11.ltrans.o
+                0x0000023c       0x31 C:\cygwin64\tmp\cclsPPfA.ltrans11.ltrans.o
  .ARM.attributes
-                0x0000026d       0x31 C:\cygwin64\tmp\cceEUuCd.ltrans12.ltrans.o
+                0x0000026d       0x31 C:\cygwin64\tmp\cclsPPfA.ltrans12.ltrans.o
  .ARM.attributes
                 0x0000029e       0x1d c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(_ashrdi3.o)
  .ARM.attributes
@@ -1334,163 +1334,163 @@ END GROUP
 OUTPUT(obj/main/cleanflight_CJMCU.elf elf32-littlearm)
 
 .debug_info     0x00000000    0x1f572
- .debug_info    0x00000000     0x47bd C:\cygwin64\tmp\cceEUuCd.ltrans0.ltrans.o
- .debug_info    0x000047bd     0x5939 C:\cygwin64\tmp\cceEUuCd.ltrans1.ltrans.o
- .debug_info    0x0000a0f6     0x303c C:\cygwin64\tmp\cceEUuCd.ltrans2.ltrans.o
- .debug_info    0x0000d132     0x221d C:\cygwin64\tmp\cceEUuCd.ltrans3.ltrans.o
- .debug_info    0x0000f34f     0x34a2 C:\cygwin64\tmp\cceEUuCd.ltrans4.ltrans.o
- .debug_info    0x000127f1     0x2343 C:\cygwin64\tmp\cceEUuCd.ltrans5.ltrans.o
- .debug_info    0x00014b34     0x1c88 C:\cygwin64\tmp\cceEUuCd.ltrans6.ltrans.o
- .debug_info    0x000167bc     0x2779 C:\cygwin64\tmp\cceEUuCd.ltrans7.ltrans.o
- .debug_info    0x00018f35     0x2be8 C:\cygwin64\tmp\cceEUuCd.ltrans8.ltrans.o
- .debug_info    0x0001bb1d     0x1a31 C:\cygwin64\tmp\cceEUuCd.ltrans9.ltrans.o
- .debug_info    0x0001d54e     0x125a C:\cygwin64\tmp\cceEUuCd.ltrans10.ltrans.o
- .debug_info    0x0001e7a8      0xb2b C:\cygwin64\tmp\cceEUuCd.ltrans11.ltrans.o
- .debug_info    0x0001f2d3      0x29f C:\cygwin64\tmp\cceEUuCd.ltrans12.ltrans.o
+ .debug_info    0x00000000     0x47bd C:\cygwin64\tmp\cclsPPfA.ltrans0.ltrans.o
+ .debug_info    0x000047bd     0x5939 C:\cygwin64\tmp\cclsPPfA.ltrans1.ltrans.o
+ .debug_info    0x0000a0f6     0x303c C:\cygwin64\tmp\cclsPPfA.ltrans2.ltrans.o
+ .debug_info    0x0000d132     0x221d C:\cygwin64\tmp\cclsPPfA.ltrans3.ltrans.o
+ .debug_info    0x0000f34f     0x34a2 C:\cygwin64\tmp\cclsPPfA.ltrans4.ltrans.o
+ .debug_info    0x000127f1     0x2343 C:\cygwin64\tmp\cclsPPfA.ltrans5.ltrans.o
+ .debug_info    0x00014b34     0x1c88 C:\cygwin64\tmp\cclsPPfA.ltrans6.ltrans.o
+ .debug_info    0x000167bc     0x2779 C:\cygwin64\tmp\cclsPPfA.ltrans7.ltrans.o
+ .debug_info    0x00018f35     0x2be8 C:\cygwin64\tmp\cclsPPfA.ltrans8.ltrans.o
+ .debug_info    0x0001bb1d     0x1a31 C:\cygwin64\tmp\cclsPPfA.ltrans9.ltrans.o
+ .debug_info    0x0001d54e     0x125a C:\cygwin64\tmp\cclsPPfA.ltrans10.ltrans.o
+ .debug_info    0x0001e7a8      0xb2b C:\cygwin64\tmp\cclsPPfA.ltrans11.ltrans.o
+ .debug_info    0x0001f2d3      0x29f C:\cygwin64\tmp\cclsPPfA.ltrans12.ltrans.o
 
 .debug_abbrev   0x00000000     0x3b16
- .debug_abbrev  0x00000000      0x574 C:\cygwin64\tmp\cceEUuCd.ltrans0.ltrans.o
- .debug_abbrev  0x00000574      0x581 C:\cygwin64\tmp\cceEUuCd.ltrans1.ltrans.o
- .debug_abbrev  0x00000af5      0x4ee C:\cygwin64\tmp\cceEUuCd.ltrans2.ltrans.o
- .debug_abbrev  0x00000fe3      0x3f8 C:\cygwin64\tmp\cceEUuCd.ltrans3.ltrans.o
- .debug_abbrev  0x000013db      0x63e C:\cygwin64\tmp\cceEUuCd.ltrans4.ltrans.o
- .debug_abbrev  0x00001a19      0x4cd C:\cygwin64\tmp\cceEUuCd.ltrans5.ltrans.o
- .debug_abbrev  0x00001ee6      0x535 C:\cygwin64\tmp\cceEUuCd.ltrans6.ltrans.o
- .debug_abbrev  0x0000241b      0x590 C:\cygwin64\tmp\cceEUuCd.ltrans7.ltrans.o
- .debug_abbrev  0x000029ab      0x5bd C:\cygwin64\tmp\cceEUuCd.ltrans8.ltrans.o
- .debug_abbrev  0x00002f68      0x425 C:\cygwin64\tmp\cceEUuCd.ltrans9.ltrans.o
- .debug_abbrev  0x0000338d      0x447 C:\cygwin64\tmp\cceEUuCd.ltrans10.ltrans.o
- .debug_abbrev  0x000037d4      0x22a C:\cygwin64\tmp\cceEUuCd.ltrans11.ltrans.o
- .debug_abbrev  0x000039fe      0x118 C:\cygwin64\tmp\cceEUuCd.ltrans12.ltrans.o
+ .debug_abbrev  0x00000000      0x574 C:\cygwin64\tmp\cclsPPfA.ltrans0.ltrans.o
+ .debug_abbrev  0x00000574      0x581 C:\cygwin64\tmp\cclsPPfA.ltrans1.ltrans.o
+ .debug_abbrev  0x00000af5      0x4ee C:\cygwin64\tmp\cclsPPfA.ltrans2.ltrans.o
+ .debug_abbrev  0x00000fe3      0x3f8 C:\cygwin64\tmp\cclsPPfA.ltrans3.ltrans.o
+ .debug_abbrev  0x000013db      0x63e C:\cygwin64\tmp\cclsPPfA.ltrans4.ltrans.o
+ .debug_abbrev  0x00001a19      0x4cd C:\cygwin64\tmp\cclsPPfA.ltrans5.ltrans.o
+ .debug_abbrev  0x00001ee6      0x535 C:\cygwin64\tmp\cclsPPfA.ltrans6.ltrans.o
+ .debug_abbrev  0x0000241b      0x590 C:\cygwin64\tmp\cclsPPfA.ltrans7.ltrans.o
+ .debug_abbrev  0x000029ab      0x5bd C:\cygwin64\tmp\cclsPPfA.ltrans8.ltrans.o
+ .debug_abbrev  0x00002f68      0x425 C:\cygwin64\tmp\cclsPPfA.ltrans9.ltrans.o
+ .debug_abbrev  0x0000338d      0x447 C:\cygwin64\tmp\cclsPPfA.ltrans10.ltrans.o
+ .debug_abbrev  0x000037d4      0x22a C:\cygwin64\tmp\cclsPPfA.ltrans11.ltrans.o
+ .debug_abbrev  0x000039fe      0x118 C:\cygwin64\tmp\cclsPPfA.ltrans12.ltrans.o
 
 .debug_loc      0x00000000     0xd100
- .debug_loc     0x00000000     0x1a64 C:\cygwin64\tmp\cceEUuCd.ltrans0.ltrans.o
- .debug_loc     0x00001a64     0x212d C:\cygwin64\tmp\cceEUuCd.ltrans1.ltrans.o
- .debug_loc     0x00003b91     0x13e0 C:\cygwin64\tmp\cceEUuCd.ltrans2.ltrans.o
- .debug_loc     0x00004f71      0xfed C:\cygwin64\tmp\cceEUuCd.ltrans3.ltrans.o
- .debug_loc     0x00005f5e     0x1d3e C:\cygwin64\tmp\cceEUuCd.ltrans4.ltrans.o
- .debug_loc     0x00007c9c      0xf11 C:\cygwin64\tmp\cceEUuCd.ltrans5.ltrans.o
- .debug_loc     0x00008bad     0x13be C:\cygwin64\tmp\cceEUuCd.ltrans6.ltrans.o
- .debug_loc     0x00009f6b      0xde9 C:\cygwin64\tmp\cceEUuCd.ltrans7.ltrans.o
- .debug_loc     0x0000ad54      0xe3f C:\cygwin64\tmp\cceEUuCd.ltrans8.ltrans.o
- .debug_loc     0x0000bb93      0xa50 C:\cygwin64\tmp\cceEUuCd.ltrans9.ltrans.o
- .debug_loc     0x0000c5e3      0xb0a C:\cygwin64\tmp\cceEUuCd.ltrans10.ltrans.o
- .debug_loc     0x0000d0ed       0x13 C:\cygwin64\tmp\cceEUuCd.ltrans11.ltrans.o
+ .debug_loc     0x00000000     0x1a64 C:\cygwin64\tmp\cclsPPfA.ltrans0.ltrans.o
+ .debug_loc     0x00001a64     0x212d C:\cygwin64\tmp\cclsPPfA.ltrans1.ltrans.o
+ .debug_loc     0x00003b91     0x13e0 C:\cygwin64\tmp\cclsPPfA.ltrans2.ltrans.o
+ .debug_loc     0x00004f71      0xfed C:\cygwin64\tmp\cclsPPfA.ltrans3.ltrans.o
+ .debug_loc     0x00005f5e     0x1d3e C:\cygwin64\tmp\cclsPPfA.ltrans4.ltrans.o
+ .debug_loc     0x00007c9c      0xf11 C:\cygwin64\tmp\cclsPPfA.ltrans5.ltrans.o
+ .debug_loc     0x00008bad     0x13be C:\cygwin64\tmp\cclsPPfA.ltrans6.ltrans.o
+ .debug_loc     0x00009f6b      0xde9 C:\cygwin64\tmp\cclsPPfA.ltrans7.ltrans.o
+ .debug_loc     0x0000ad54      0xe3f C:\cygwin64\tmp\cclsPPfA.ltrans8.ltrans.o
+ .debug_loc     0x0000bb93      0xa50 C:\cygwin64\tmp\cclsPPfA.ltrans9.ltrans.o
+ .debug_loc     0x0000c5e3      0xb0a C:\cygwin64\tmp\cclsPPfA.ltrans10.ltrans.o
+ .debug_loc     0x0000d0ed       0x13 C:\cygwin64\tmp\cclsPPfA.ltrans11.ltrans.o
 
 .debug_aranges  0x00000000      0x1a8
  .debug_aranges
-                0x00000000       0x20 C:\cygwin64\tmp\cceEUuCd.ltrans0.ltrans.o
+                0x00000000       0x20 C:\cygwin64\tmp\cclsPPfA.ltrans0.ltrans.o
  .debug_aranges
-                0x00000020       0x20 C:\cygwin64\tmp\cceEUuCd.ltrans1.ltrans.o
+                0x00000020       0x20 C:\cygwin64\tmp\cclsPPfA.ltrans1.ltrans.o
  .debug_aranges
-                0x00000040       0x20 C:\cygwin64\tmp\cceEUuCd.ltrans2.ltrans.o
+                0x00000040       0x20 C:\cygwin64\tmp\cclsPPfA.ltrans2.ltrans.o
  .debug_aranges
-                0x00000060       0x20 C:\cygwin64\tmp\cceEUuCd.ltrans3.ltrans.o
+                0x00000060       0x20 C:\cygwin64\tmp\cclsPPfA.ltrans3.ltrans.o
  .debug_aranges
-                0x00000080       0x28 C:\cygwin64\tmp\cceEUuCd.ltrans4.ltrans.o
+                0x00000080       0x28 C:\cygwin64\tmp\cclsPPfA.ltrans4.ltrans.o
  .debug_aranges
-                0x000000a8       0x20 C:\cygwin64\tmp\cceEUuCd.ltrans5.ltrans.o
+                0x000000a8       0x20 C:\cygwin64\tmp\cclsPPfA.ltrans5.ltrans.o
  .debug_aranges
-                0x000000c8       0x20 C:\cygwin64\tmp\cceEUuCd.ltrans6.ltrans.o
+                0x000000c8       0x20 C:\cygwin64\tmp\cclsPPfA.ltrans6.ltrans.o
  .debug_aranges
-                0x000000e8       0x20 C:\cygwin64\tmp\cceEUuCd.ltrans7.ltrans.o
+                0x000000e8       0x20 C:\cygwin64\tmp\cclsPPfA.ltrans7.ltrans.o
  .debug_aranges
-                0x00000108       0x20 C:\cygwin64\tmp\cceEUuCd.ltrans8.ltrans.o
+                0x00000108       0x20 C:\cygwin64\tmp\cclsPPfA.ltrans8.ltrans.o
  .debug_aranges
-                0x00000128       0x20 C:\cygwin64\tmp\cceEUuCd.ltrans9.ltrans.o
+                0x00000128       0x20 C:\cygwin64\tmp\cclsPPfA.ltrans9.ltrans.o
  .debug_aranges
-                0x00000148       0x20 C:\cygwin64\tmp\cceEUuCd.ltrans10.ltrans.o
+                0x00000148       0x20 C:\cygwin64\tmp\cclsPPfA.ltrans10.ltrans.o
  .debug_aranges
-                0x00000168       0x20 C:\cygwin64\tmp\cceEUuCd.ltrans11.ltrans.o
+                0x00000168       0x20 C:\cygwin64\tmp\cclsPPfA.ltrans11.ltrans.o
  .debug_aranges
-                0x00000188       0x20 C:\cygwin64\tmp\cceEUuCd.ltrans12.ltrans.o
+                0x00000188       0x20 C:\cygwin64\tmp\cclsPPfA.ltrans12.ltrans.o
 
 .debug_ranges   0x00000000     0x26a8
- .debug_ranges  0x00000000      0x4b8 C:\cygwin64\tmp\cceEUuCd.ltrans0.ltrans.o
- .debug_ranges  0x000004b8      0xa30 C:\cygwin64\tmp\cceEUuCd.ltrans1.ltrans.o
- .debug_ranges  0x00000ee8      0x7a0 C:\cygwin64\tmp\cceEUuCd.ltrans2.ltrans.o
- .debug_ranges  0x00001688      0x638 C:\cygwin64\tmp\cceEUuCd.ltrans3.ltrans.o
- .debug_ranges  0x00001cc0       0x90 C:\cygwin64\tmp\cceEUuCd.ltrans4.ltrans.o
- .debug_ranges  0x00001d50       0xa0 C:\cygwin64\tmp\cceEUuCd.ltrans5.ltrans.o
- .debug_ranges  0x00001df0      0x130 C:\cygwin64\tmp\cceEUuCd.ltrans6.ltrans.o
- .debug_ranges  0x00001f20      0x3a8 C:\cygwin64\tmp\cceEUuCd.ltrans7.ltrans.o
- .debug_ranges  0x000022c8      0x160 C:\cygwin64\tmp\cceEUuCd.ltrans8.ltrans.o
- .debug_ranges  0x00002428      0x118 C:\cygwin64\tmp\cceEUuCd.ltrans9.ltrans.o
- .debug_ranges  0x00002540      0x168 C:\cygwin64\tmp\cceEUuCd.ltrans10.ltrans.o
+ .debug_ranges  0x00000000      0x4b8 C:\cygwin64\tmp\cclsPPfA.ltrans0.ltrans.o
+ .debug_ranges  0x000004b8      0xa30 C:\cygwin64\tmp\cclsPPfA.ltrans1.ltrans.o
+ .debug_ranges  0x00000ee8      0x7a0 C:\cygwin64\tmp\cclsPPfA.ltrans2.ltrans.o
+ .debug_ranges  0x00001688      0x638 C:\cygwin64\tmp\cclsPPfA.ltrans3.ltrans.o
+ .debug_ranges  0x00001cc0       0x90 C:\cygwin64\tmp\cclsPPfA.ltrans4.ltrans.o
+ .debug_ranges  0x00001d50       0xa0 C:\cygwin64\tmp\cclsPPfA.ltrans5.ltrans.o
+ .debug_ranges  0x00001df0      0x130 C:\cygwin64\tmp\cclsPPfA.ltrans6.ltrans.o
+ .debug_ranges  0x00001f20      0x3a8 C:\cygwin64\tmp\cclsPPfA.ltrans7.ltrans.o
+ .debug_ranges  0x000022c8      0x160 C:\cygwin64\tmp\cclsPPfA.ltrans8.ltrans.o
+ .debug_ranges  0x00002428      0x118 C:\cygwin64\tmp\cclsPPfA.ltrans9.ltrans.o
+ .debug_ranges  0x00002540      0x168 C:\cygwin64\tmp\cclsPPfA.ltrans10.ltrans.o
 
 .debug_line     0x00000000     0x65de
- .debug_line    0x00000000      0xb22 C:\cygwin64\tmp\cceEUuCd.ltrans0.ltrans.o
- .debug_line    0x00000b22     0x10d0 C:\cygwin64\tmp\cceEUuCd.ltrans1.ltrans.o
- .debug_line    0x00001bf2      0xb10 C:\cygwin64\tmp\cceEUuCd.ltrans2.ltrans.o
- .debug_line    0x00002702      0x850 C:\cygwin64\tmp\cceEUuCd.ltrans3.ltrans.o
- .debug_line    0x00002f52      0x9c7 C:\cygwin64\tmp\cceEUuCd.ltrans4.ltrans.o
- .debug_line    0x00003919      0x749 C:\cygwin64\tmp\cceEUuCd.ltrans5.ltrans.o
- .debug_line    0x00004062      0x7a6 C:\cygwin64\tmp\cceEUuCd.ltrans6.ltrans.o
- .debug_line    0x00004808      0x93b C:\cygwin64\tmp\cceEUuCd.ltrans7.ltrans.o
- .debug_line    0x00005143      0x771 C:\cygwin64\tmp\cceEUuCd.ltrans8.ltrans.o
- .debug_line    0x000058b4      0x51d C:\cygwin64\tmp\cceEUuCd.ltrans9.ltrans.o
- .debug_line    0x00005dd1      0x483 C:\cygwin64\tmp\cceEUuCd.ltrans10.ltrans.o
- .debug_line    0x00006254      0x20a C:\cygwin64\tmp\cceEUuCd.ltrans11.ltrans.o
- .debug_line    0x0000645e      0x180 C:\cygwin64\tmp\cceEUuCd.ltrans12.ltrans.o
+ .debug_line    0x00000000      0xb22 C:\cygwin64\tmp\cclsPPfA.ltrans0.ltrans.o
+ .debug_line    0x00000b22     0x10d0 C:\cygwin64\tmp\cclsPPfA.ltrans1.ltrans.o
+ .debug_line    0x00001bf2      0xb10 C:\cygwin64\tmp\cclsPPfA.ltrans2.ltrans.o
+ .debug_line    0x00002702      0x850 C:\cygwin64\tmp\cclsPPfA.ltrans3.ltrans.o
+ .debug_line    0x00002f52      0x9c7 C:\cygwin64\tmp\cclsPPfA.ltrans4.ltrans.o
+ .debug_line    0x00003919      0x749 C:\cygwin64\tmp\cclsPPfA.ltrans5.ltrans.o
+ .debug_line    0x00004062      0x7a6 C:\cygwin64\tmp\cclsPPfA.ltrans6.ltrans.o
+ .debug_line    0x00004808      0x93b C:\cygwin64\tmp\cclsPPfA.ltrans7.ltrans.o
+ .debug_line    0x00005143      0x771 C:\cygwin64\tmp\cclsPPfA.ltrans8.ltrans.o
+ .debug_line    0x000058b4      0x51d C:\cygwin64\tmp\cclsPPfA.ltrans9.ltrans.o
+ .debug_line    0x00005dd1      0x483 C:\cygwin64\tmp\cclsPPfA.ltrans10.ltrans.o
+ .debug_line    0x00006254      0x20a C:\cygwin64\tmp\cclsPPfA.ltrans11.ltrans.o
+ .debug_line    0x0000645e      0x180 C:\cygwin64\tmp\cclsPPfA.ltrans12.ltrans.o
 
 .debug_str      0x00000000     0x9043
- .debug_str     0x00000000     0x2ca2 C:\cygwin64\tmp\cceEUuCd.ltrans0.ltrans.o
+ .debug_str     0x00000000     0x2ca2 C:\cygwin64\tmp\cclsPPfA.ltrans0.ltrans.o
                                0x2de2 (size before relaxing)
- .debug_str     0x00002ca2     0x2844 C:\cygwin64\tmp\cceEUuCd.ltrans1.ltrans.o
+ .debug_str     0x00002ca2     0x2844 C:\cygwin64\tmp\cclsPPfA.ltrans1.ltrans.o
                                0x357b (size before relaxing)
- .debug_str     0x000054e6      0xa8b C:\cygwin64\tmp\cceEUuCd.ltrans2.ltrans.o
+ .debug_str     0x000054e6      0xa8b C:\cygwin64\tmp\cclsPPfA.ltrans2.ltrans.o
                                0x187b (size before relaxing)
- .debug_str     0x00005f71      0xaf5 C:\cygwin64\tmp\cceEUuCd.ltrans3.ltrans.o
+ .debug_str     0x00005f71      0xaf5 C:\cygwin64\tmp\cclsPPfA.ltrans3.ltrans.o
                                0x15e9 (size before relaxing)
- .debug_str     0x00006a66      0xc30 C:\cygwin64\tmp\cceEUuCd.ltrans4.ltrans.o
+ .debug_str     0x00006a66      0xc30 C:\cygwin64\tmp\cclsPPfA.ltrans4.ltrans.o
                                0x214e (size before relaxing)
- .debug_str     0x00007696      0x64f C:\cygwin64\tmp\cceEUuCd.ltrans5.ltrans.o
+ .debug_str     0x00007696      0x64f C:\cygwin64\tmp\cclsPPfA.ltrans5.ltrans.o
                                0x134b (size before relaxing)
- .debug_str     0x00007ce5      0x357 C:\cygwin64\tmp\cceEUuCd.ltrans6.ltrans.o
+ .debug_str     0x00007ce5      0x357 C:\cygwin64\tmp\cclsPPfA.ltrans6.ltrans.o
                                0x1075 (size before relaxing)
- .debug_str     0x0000803c      0x58d C:\cygwin64\tmp\cceEUuCd.ltrans7.ltrans.o
+ .debug_str     0x0000803c      0x58d C:\cygwin64\tmp\cclsPPfA.ltrans7.ltrans.o
                                0x1bfd (size before relaxing)
- .debug_str     0x000085c9      0x317 C:\cygwin64\tmp\cceEUuCd.ltrans8.ltrans.o
+ .debug_str     0x000085c9      0x317 C:\cygwin64\tmp\cclsPPfA.ltrans8.ltrans.o
                                0x1f85 (size before relaxing)
- .debug_str     0x000088e0      0x218 C:\cygwin64\tmp\cceEUuCd.ltrans9.ltrans.o
+ .debug_str     0x000088e0      0x218 C:\cygwin64\tmp\cclsPPfA.ltrans9.ltrans.o
                                 0xf28 (size before relaxing)
- .debug_str     0x00008af8      0x335 C:\cygwin64\tmp\cceEUuCd.ltrans10.ltrans.o
+ .debug_str     0x00008af8      0x335 C:\cygwin64\tmp\cclsPPfA.ltrans10.ltrans.o
                                 0x8a5 (size before relaxing)
- .debug_str     0x00008e2d      0x153 C:\cygwin64\tmp\cceEUuCd.ltrans11.ltrans.o
+ .debug_str     0x00008e2d      0x153 C:\cygwin64\tmp\cclsPPfA.ltrans11.ltrans.o
                                 0x837 (size before relaxing)
- .debug_str     0x00008f80       0xc3 C:\cygwin64\tmp\cceEUuCd.ltrans12.ltrans.o
+ .debug_str     0x00008f80       0xc3 C:\cygwin64\tmp\cclsPPfA.ltrans12.ltrans.o
                                 0x4dd (size before relaxing)
 
 .comment        0x00000000       0x70
- .comment       0x00000000       0x70 C:\cygwin64\tmp\cceEUuCd.ltrans0.ltrans.o
+ .comment       0x00000000       0x70 C:\cygwin64\tmp\cclsPPfA.ltrans0.ltrans.o
                                  0x71 (size before relaxing)
- .comment       0x00000000       0x71 C:\cygwin64\tmp\cceEUuCd.ltrans1.ltrans.o
- .comment       0x00000000       0x71 C:\cygwin64\tmp\cceEUuCd.ltrans2.ltrans.o
- .comment       0x00000000       0x71 C:\cygwin64\tmp\cceEUuCd.ltrans3.ltrans.o
- .comment       0x00000000       0x71 C:\cygwin64\tmp\cceEUuCd.ltrans4.ltrans.o
- .comment       0x00000000       0x71 C:\cygwin64\tmp\cceEUuCd.ltrans5.ltrans.o
- .comment       0x00000000       0x71 C:\cygwin64\tmp\cceEUuCd.ltrans6.ltrans.o
- .comment       0x00000000       0x71 C:\cygwin64\tmp\cceEUuCd.ltrans7.ltrans.o
- .comment       0x00000000       0x71 C:\cygwin64\tmp\cceEUuCd.ltrans8.ltrans.o
- .comment       0x00000000       0x71 C:\cygwin64\tmp\cceEUuCd.ltrans9.ltrans.o
- .comment       0x00000000       0x71 C:\cygwin64\tmp\cceEUuCd.ltrans10.ltrans.o
- .comment       0x00000000       0x71 C:\cygwin64\tmp\cceEUuCd.ltrans11.ltrans.o
- .comment       0x00000000       0x71 C:\cygwin64\tmp\cceEUuCd.ltrans12.ltrans.o
+ .comment       0x00000000       0x71 C:\cygwin64\tmp\cclsPPfA.ltrans1.ltrans.o
+ .comment       0x00000000       0x71 C:\cygwin64\tmp\cclsPPfA.ltrans2.ltrans.o
+ .comment       0x00000000       0x71 C:\cygwin64\tmp\cclsPPfA.ltrans3.ltrans.o
+ .comment       0x00000000       0x71 C:\cygwin64\tmp\cclsPPfA.ltrans4.ltrans.o
+ .comment       0x00000000       0x71 C:\cygwin64\tmp\cclsPPfA.ltrans5.ltrans.o
+ .comment       0x00000000       0x71 C:\cygwin64\tmp\cclsPPfA.ltrans6.ltrans.o
+ .comment       0x00000000       0x71 C:\cygwin64\tmp\cclsPPfA.ltrans7.ltrans.o
+ .comment       0x00000000       0x71 C:\cygwin64\tmp\cclsPPfA.ltrans8.ltrans.o
+ .comment       0x00000000       0x71 C:\cygwin64\tmp\cclsPPfA.ltrans9.ltrans.o
+ .comment       0x00000000       0x71 C:\cygwin64\tmp\cclsPPfA.ltrans10.ltrans.o
+ .comment       0x00000000       0x71 C:\cygwin64\tmp\cclsPPfA.ltrans11.ltrans.o
+ .comment       0x00000000       0x71 C:\cygwin64\tmp\cclsPPfA.ltrans12.ltrans.o
 
 .debug_frame    0x00000000     0x13e4
- .debug_frame   0x00000000       0x2c C:\cygwin64\tmp\cceEUuCd.ltrans0.ltrans.o
- .debug_frame   0x0000002c       0x3c C:\cygwin64\tmp\cceEUuCd.ltrans1.ltrans.o
- .debug_frame   0x00000068       0x3c C:\cygwin64\tmp\cceEUuCd.ltrans2.ltrans.o
- .debug_frame   0x000000a4       0x38 C:\cygwin64\tmp\cceEUuCd.ltrans3.ltrans.o
- .debug_frame   0x000000dc      0x5f0 C:\cygwin64\tmp\cceEUuCd.ltrans4.ltrans.o
- .debug_frame   0x000006cc      0x130 C:\cygwin64\tmp\cceEUuCd.ltrans5.ltrans.o
- .debug_frame   0x000007fc      0x138 C:\cygwin64\tmp\cceEUuCd.ltrans6.ltrans.o
- .debug_frame   0x00000934      0x120 C:\cygwin64\tmp\cceEUuCd.ltrans7.ltrans.o
- .debug_frame   0x00000a54      0x194 C:\cygwin64\tmp\cceEUuCd.ltrans8.ltrans.o
- .debug_frame   0x00000be8       0xcc C:\cygwin64\tmp\cceEUuCd.ltrans9.ltrans.o
- .debug_frame   0x00000cb4      0x124 C:\cygwin64\tmp\cceEUuCd.ltrans10.ltrans.o
- .debug_frame   0x00000dd8       0xd0 C:\cygwin64\tmp\cceEUuCd.ltrans11.ltrans.o
- .debug_frame   0x00000ea8       0x68 C:\cygwin64\tmp\cceEUuCd.ltrans12.ltrans.o
+ .debug_frame   0x00000000       0x2c C:\cygwin64\tmp\cclsPPfA.ltrans0.ltrans.o
+ .debug_frame   0x0000002c       0x3c C:\cygwin64\tmp\cclsPPfA.ltrans1.ltrans.o
+ .debug_frame   0x00000068       0x3c C:\cygwin64\tmp\cclsPPfA.ltrans2.ltrans.o
+ .debug_frame   0x000000a4       0x38 C:\cygwin64\tmp\cclsPPfA.ltrans3.ltrans.o
+ .debug_frame   0x000000dc      0x5f0 C:\cygwin64\tmp\cclsPPfA.ltrans4.ltrans.o
+ .debug_frame   0x000006cc      0x130 C:\cygwin64\tmp\cclsPPfA.ltrans5.ltrans.o
+ .debug_frame   0x000007fc      0x138 C:\cygwin64\tmp\cclsPPfA.ltrans6.ltrans.o
+ .debug_frame   0x00000934      0x120 C:\cygwin64\tmp\cclsPPfA.ltrans7.ltrans.o
+ .debug_frame   0x00000a54      0x194 C:\cygwin64\tmp\cclsPPfA.ltrans8.ltrans.o
+ .debug_frame   0x00000be8       0xcc C:\cygwin64\tmp\cclsPPfA.ltrans9.ltrans.o
+ .debug_frame   0x00000cb4      0x124 C:\cygwin64\tmp\cclsPPfA.ltrans10.ltrans.o
+ .debug_frame   0x00000dd8       0xd0 C:\cygwin64\tmp\cclsPPfA.ltrans11.ltrans.o
+ .debug_frame   0x00000ea8       0x68 C:\cygwin64\tmp\cclsPPfA.ltrans12.ltrans.o
  .debug_frame   0x00000f10       0x28 c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(_fixsfdi.o)
  .debug_frame   0x00000f38       0x2c c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(_fixunssfdi.o)
  .debug_frame   0x00000f64       0x58 c:/users/chalpathi/desktop/arm/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(bpabi.o)

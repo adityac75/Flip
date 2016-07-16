@@ -278,7 +278,7 @@ void flip(uint32_t reset)
 
                     ACTIVATE_RC_MODE(BOXBARO);        //activate angle mode and baromode after one flip
                     ENABLE_FLIGHT_MODE(ANGLE_MODE);
-                    rcData[THROTTLE]=1500;            
+                    rcData[THROTTLE]=1850;            
                     rcData[PITCH]=1500;               //give zero pitch
                     timeon = millis();                //get system time
                     state=4;

@@ -364,7 +364,7 @@
 #define CJMCU 1
 #define __FORKNAME__ "cleanflight"
 #define __TARGET__ "CJMCU"
-#define __REVISION__ "e84c0eb"
+#define __REVISION__ "0059c7d"
 # 1 "./src/main/mw.c"
 # 18 "./src/main/mw.c"
 # 1 "c:\\users\\chalpathi\\desktop\\arm\\lib\\gcc\\arm-none-eabi\\4.8.4\\include\\stdbool.h" 1 3 4
@@ -15853,7 +15853,7 @@ void flip(uint32_t reset)
 
                     (rcModeActivationMask |= (1 << BOXBARO));
                     enableFlightMode(ANGLE_MODE);
-                    rcData[THROTTLE]=1500;
+                    rcData[THROTTLE]=1850;
                     rcData[PITCH]=1500;
                     timeon = millis();
                     state=4;
