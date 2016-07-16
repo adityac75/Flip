@@ -262,7 +262,7 @@ void flip(uint32_t reset)
 
                 DISABLE_FLIGHT_MODE(ANGLE_MODE);
                 rcData[THROTTLE]=1100;
-                rcData[PITCH] = 1700;
+                rcData[PITCH] = 1676;
                 led1_op(true);
                 led0_op(false);
                 led2_op(true);
